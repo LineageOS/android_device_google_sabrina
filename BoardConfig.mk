@@ -12,3 +12,6 @@ DEVICE_PATH := device/google/sabrina
 
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sabrina
+
+## DTB
+TARGET_DTB_NAME := sm1_s905d3_sabrina
