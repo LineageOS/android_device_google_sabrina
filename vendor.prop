@@ -6,3 +6,6 @@
 
 ## Bluetooth
 ro.bt.bdaddr_path=/sys/class/bt_addr/value
+
+## FRP
+ro.frp.pst=/dev/block/by-name/frp
