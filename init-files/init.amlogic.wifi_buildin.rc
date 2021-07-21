@@ -1,3 +1,5 @@
+import /vendor/etc/init/hw/init.amlogic.sku.rc
+
 on boot
     insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/etc/wifi/buildin/ nvram_path=/vendor/etc/wifi/buildin/
     chown root wifi /sys/module/dhd/parameters/firmware_path

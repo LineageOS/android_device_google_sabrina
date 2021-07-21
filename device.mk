@@ -16,6 +16,9 @@ PRODUCT_PACKAGES += \
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/init-files/tee_hdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_hdcp.rc \
+    $(DEVICE_PATH)/init-files/tee_key_inject.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_key_inject.rc \
+    $(DEVICE_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
 ## Kernel Modules

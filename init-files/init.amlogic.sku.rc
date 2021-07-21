@@ -1,0 +1,71 @@
+on early-init && property:ro.boot.hardware.sku=*
+    setprop ro.boot.product.hardware.sku ${ro.boot.hardware.sku}
+
+on init
+    # Set sku to US if it was not set by the bootloader
+    setprop ro.boot.product.hardware.sku US
+    trigger sku-init
+
+on sku-init
+    # Allow PAI targeting per hardware SKU
+    setprop ro.oem.key1 ATV00100020-${ro.boot.product.hardware.sku}
+
+on sku-init && property:ro.boot.product.hardware.sku=US
+    setprop ro.boot.wificountrycode US
+    setprop ro.boot.oem.locales en-US,es-US
+
+on sku-init && property:ro.boot.product.hardware.sku=CA
+    setprop ro.boot.wificountrycode CA
+    setprop ro.boot.oem.locales en-US,fr-CA
+
+on sku-init && property:ro.boot.product.hardware.sku=GB
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales en-GB
+
+on sku-init && property:ro.boot.product.hardware.sku=IE
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales en-GB
+
+on sku-init && property:ro.boot.product.hardware.sku=DE
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales de-DE
+
+on sku-init && property:ro.boot.product.hardware.sku=FR
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales fr-FR
+
+on sku-init && property:ro.boot.product.hardware.sku=NL
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales de-DE,fr-FR,nl-NL
+
+on sku-init && property:ro.boot.product.hardware.sku=NO
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales en-GB,nb-NO,sv-SE,da-DK,fi-FI
+
+on sku-init && property:ro.boot.product.hardware.sku=IT
+    setprop ro.boot.wificountrycode EU
+    setprop ro.boot.oem.locales es-ES,it-IT
+
+on sku-init && property:ro.boot.product.hardware.sku=AU
+    setprop ro.boot.wificountrycode AU
+    setprop ro.boot.oem.locales en-AU
+
+on sku-init && property:ro.boot.product.hardware.sku=JP
+    setprop ro.boot.wificountrycode JP
+    setprop ro.boot.oem.locales ja-JP
+
+on sku-init && property:ro.boot.product.hardware.sku=KR
+    setprop ro.boot.wificountrycode KR
+    setprop ro.boot.oem.locales ko-KR
+
+on sku-init && property:ro.boot.product.hardware.sku=IN
+    setprop ro.boot.wificountrycode US
+    setprop ro.boot.oem.locales hi-IN,en-IN
+
+on sku-init && property:ro.boot.product.hardware.sku=MX
+    setprop ro.boot.wificountrycode US
+    setprop ro.boot.oem.locales es-US
+
+on sku-init && property:ro.boot.product.hardware.sku=TW
+    setprop ro.boot.wificountrycode US
+    setprop ro.boot.oem.locales zh-TW,en-US
