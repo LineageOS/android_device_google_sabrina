@@ -1,6 +1,13 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
 ##  are from sabrina_prod_stable-user-10-QTS1.210311.008-7350836-release-keys.
 
+## Device Specific Components
+product/etc/permissions/privapp-permissions-sabrina.xml
+product/lib/hw/bootctrl.amlogic.so
+-product/priv-app/ChromecastService/ChromecastService.apk;PRESIGNED
+-product/priv-app/RemotecontrolLogging/RemotecontrolLogging.apk
+-product/priv-app/TVAxelX/TVAxelX.apk;PRESIGNED
+
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta
