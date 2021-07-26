@@ -22,6 +22,9 @@ TARGET_BOOTLOADER_BOARD_NAME := sabrina
 ## DTB
 TARGET_DTB_NAME := sm1_s905d3_sabrina
 
+## Kernel
+TARGET_KERNEL_VARIANT_CONFIG := sabrina_defconfig
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
