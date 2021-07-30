@@ -13,6 +13,9 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Our TEE is incompatible with our blobs
+TARGET_HAS_TEE := false
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := sabrina
