@@ -33,3 +33,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
+
+## Wi-Fi
+TARGET_DHD_VERSION := bcmdhd.100.10.315.x
