@@ -21,18 +21,13 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
-## Keyhandler
-PRODUCT_PACKAGES += \
-    KeyHandler
-
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     dhd
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 ## Wi-Fi
 TARGET_DHD_VERSION := bcmdhd.100.10.545.x
