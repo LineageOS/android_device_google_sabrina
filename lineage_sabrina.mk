@@ -21,8 +21,13 @@ PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := Chromecast
 PRODUCT_NAME := lineage_sabrina
 
+PRODUCT_SYSTEM_NAME := sabrina_prod_stable
+PRODUCT_SYSTEM_DEVICE := sabrina_prod_stable
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sabrina_prod_stable \
-    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 10 QTS1.210311.036 7814738 release-keys"
+    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 10 QTS1.210311.036 7814738 release-keys" \
+    TARGET_DEVICE=$(PRODUCT_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := google/sabrina_prod_stable/sabrina:10/QTS1.210311.036/7814738:user/release-keys
