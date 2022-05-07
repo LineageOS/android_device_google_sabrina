@@ -11,6 +11,9 @@ product/lib/hw/bootctrl.amlogic.so
 ## Keylayouts
 vendor/usr/keylayout/Vendor_0001_Product_0001.kl
 
+## DRM
+vendor/lib/liboemcrypto.so
+
 ## TEE Applets - from sabrina_prod_stable-user 10 QTS2.200918.015 6966301 release-keys
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta|c0daf7a58f5bfd25fd49d86da92e8744f80b724e
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta|17176fed1496791d501bf0b66d5b11d82e136ed5
