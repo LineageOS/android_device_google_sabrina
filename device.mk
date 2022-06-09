@@ -8,8 +8,6 @@ DEVICE_PATH := device/google/sabrina
 
 $(call inherit-product, vendor/google/sabrina/sabrina-vendor.mk)
 
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
-
 ## Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
@@ -32,4 +30,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 ## Wi-Fi
 TARGET_DHD_VERSION := bcmdhd.100.10.545.x
 
+## Wi-Fi Firmware
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
+
+## Common Tree
+$(call inherit-product, device/amlogic/g12-common/g12.mk)
