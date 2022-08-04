@@ -23,6 +23,6 @@ PRODUCT_NAME := lineage_sabrina
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sabrina_prod_stable \
-    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 10 QTS1.210311.008 7350836 release-keys"
+    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 10 QTS1.210311.036 7814738 release-keys"
 
-BUILD_FINGERPRINT := google/sabrina_prod_stable/sabrina:10/QTS1.210311.008/7350836:user/release-keys
+BUILD_FINGERPRINT := google/sabrina_prod_stable/sabrina:10/QTS1.210311.036/7814738:user/release-keys
