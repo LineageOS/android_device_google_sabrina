@@ -7,7 +7,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME "ADT-3"
+#define BTM_DEF_LOCAL_NAME "Chromecast"
 
 #define BLE_VND_INCLUDED TRUE
 
