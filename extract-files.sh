@@ -16,7 +16,7 @@ set -e
 
 export DEVICE=sabrina
 export DEVICE_COMMON=g12-common
+export VENDOR=google
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=google
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
