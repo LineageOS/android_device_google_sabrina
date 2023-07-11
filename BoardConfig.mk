@@ -21,6 +21,9 @@ TARGET_DTB_NAME := sm1_s905d3_sabrina
 ## Kernel
 TARGET_KERNEL_VARIANT_CONFIG := sabrina_defconfig
 
+## Partitions
+BOARD_SUPER_PARTITION_SIZE := 2084569088
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
