@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 The LineageOS Project
+<!-- Copyright (C) 2021-2023 The LineageOS Project
 
      SPDX-License-Identifier: Apache-2.0
 -->
@@ -7,10 +7,4 @@
     <bool name="enable_phone_policy">true</bool>
     <bool name="pbap_include_photos_in_vcard">false</bool>
     <bool name="pbap_use_profile_for_owner_vcard">false</bool>
-    <bool name="profile_supported_hdp">false</bool>
-    <bool name="profile_supported_hs_hfp">false</bool>
-    <bool name="profile_supported_map">false</bool>
-    <bool name="profile_supported_opp">false</bool>
-    <bool name="profile_supported_pan">false</bool>
-    <bool name="profile_supported_pbap">false</bool>
 </resources>
