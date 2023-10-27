@@ -1,11 +1,12 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
+    SabrinaBluetoothOverlay \
     libbt-vendor
 
 ## Init-Files
@@ -19,9 +20,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     dhd
 
-## Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
 
 ## Wi-Fi
 TARGET_DHD_VERSION := bcmdhd.100.10.545.x
