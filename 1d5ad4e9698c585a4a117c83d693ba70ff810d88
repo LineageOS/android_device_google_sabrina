@@ -16,6 +16,24 @@
       "message": "is this right? Sunfish does this `./google/sunfish/overlay/packages/services/apps/Bluetooth/res/values/config.xml` - which is _really_ weird.",
       "revId": "1d5ad4e9698c585a4a117c83d693ba70ff810d88",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb4dbe83_3070cda0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T15:23:42Z",
+      "side": 1,
+      "message": "I didn\u0027t test yet, but my logic is that the app now lives in packages/modules/Bluetooth.",
+      "parentUuid": "67fe2a60_fc544783",
+      "revId": "1d5ad4e9698c585a4a117c83d693ba70ff810d88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
