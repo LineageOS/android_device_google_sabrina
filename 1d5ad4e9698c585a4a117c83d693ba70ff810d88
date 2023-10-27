@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67fe2a60_fc544783",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-27T15:21:49Z",
+      "side": 1,
+      "message": "is this right? Sunfish does this `./google/sunfish/overlay/packages/services/apps/Bluetooth/res/values/config.xml` - which is _really_ weird.",
+      "revId": "1d5ad4e9698c585a4a117c83d693ba70ff810d88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
