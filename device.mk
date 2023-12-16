@@ -16,13 +16,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
-## Kernel Modules
-PRODUCT_PACKAGES += \
-    dhd
-
-## Wi-Fi
-TARGET_DHD_VERSION := bcmdhd.100.10.545.x
-
 ## Wi-Fi Firmware
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
 

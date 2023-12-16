@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -20,6 +20,10 @@ TARGET_DTB_NAME := sm1_s905d3_sabrina
 
 ## Kernel
 TARGET_KERNEL_VARIANT_CONFIG := sabrina_defconfig
+
+## Kernel modules
+TARGET_KERNEL_EXT_MODULES := \
+    dhd-driver/bcmdhd.100.10.545.x
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
