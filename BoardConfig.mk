@@ -21,6 +21,10 @@ TARGET_DTB_NAME := sm1_s905d3_sabrina
 ## Kernel
 TARGET_KERNEL_VARIANT_CONFIG := sabrina_defconfig
 
+## Kernel modules
+TARGET_KERNEL_EXT_MODULES := \
+    dhd-driver/bcmdhd.101.10.361.x
+
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
 BOARD_SYSTEM_EXTIMAGE_EXTFS_INODE_COUNT ?= -1
