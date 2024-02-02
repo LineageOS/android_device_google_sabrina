@@ -5,12 +5,8 @@
 #
 
 ## Bluetooth
+bluetooth.device.class_of_device=44,4,32
 bluetooth.device.default_name=Chromecast
-bluetooth.profile.hfp.ag.enabled=false
-bluetooth.profile.map.server.enabled=false
-bluetooth.profile.opp.enabled=false
-bluetooth.profile.pan.panu.enabled=false
-bluetooth.profile.pbap.server.enabled=false
 ro.bt.bdaddr_path=/sys/class/bt_addr/value
 
 ## Dolby
