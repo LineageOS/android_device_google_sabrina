@@ -11,8 +11,6 @@ PRODUCT_PACKAGES += \
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/tee_hdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_hdcp.rc \
-    $(LOCAL_PATH)/init-files/tee_key_inject.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_key_inject.rc \
     $(LOCAL_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
     $(LOCAL_PATH)/init-files/init.recovery.sabrina.rc:recovery/root/init.recovery.sabrina.rc
@@ -24,9 +22,6 @@ PRODUCT_PACKAGES += \
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
-
-## Wi-Fi
-TARGET_DHD_VERSION := bcmdhd.100.10.545.x
 
 ## Wi-Fi Firmware
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
