@@ -24,6 +24,8 @@ PRODUCT_NAME := lineage_sabrina
 PRODUCT_SYSTEM_NAME := sabrina_prod_stable
 PRODUCT_SYSTEM_DEVICE := sabrina_prod_stable
 
+PRODUCT_ATV_CLIENTID_BASE := ATV00100020-US
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sabrina_prod_stable \
     PRIVATE_BUILD_DESC="sabrina_prod_stable-user 10 QTS1.210311.036 7814738 release-keys" \
