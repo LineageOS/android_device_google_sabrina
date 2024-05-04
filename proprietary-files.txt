@@ -8,9 +8,6 @@ product/lib/hw/bootctrl.amlogic.so
 -product/priv-app/RemotecontrolLogging/RemotecontrolLogging.apk
 -product/priv-app/TVAxelX/TVAxelX.apk;PRESIGNED
 
-## Keylayouts
-vendor/usr/keylayout/Vendor_0001_Product_0001.kl
-
 ## DRM
 vendor/lib/liboemcrypto.so
 
