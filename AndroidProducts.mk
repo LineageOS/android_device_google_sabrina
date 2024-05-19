@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_sabrina.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_sabrina-eng \
-    lineage_sabrina-user \
-    lineage_sabrina-userdebug
