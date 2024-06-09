@@ -25,6 +25,7 @@ set -e
 
 export DEVICE=sabrina
 export DEVICE_COMMON=g12-common
+export TARGET_SOC=sm1
 export VENDOR=google
 export VENDOR_COMMON=amlogic
 
