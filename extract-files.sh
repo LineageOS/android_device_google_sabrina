@@ -27,6 +27,7 @@ export DEVICE=sabrina
 export DEVICE_COMMON=g12-common
 export TARGET_SOC=sm1
 export VENDOR=google
+export VENDOR_BRAND="${VENDOR}"
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
