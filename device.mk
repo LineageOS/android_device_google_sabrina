@@ -23,6 +23,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
+## Platform
+TARGET_AMLOGIC_SOC := sm1
+
 ## Wi-Fi Firmware
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
 
