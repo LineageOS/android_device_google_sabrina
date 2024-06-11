@@ -1,9 +1,12 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from sabrina_prod_stable-user 12 STTL.231114.004 11218674 release-keys.
+## are from sabrina_prod_stable-user 12 STTE.240315.002 11695351 release-keys.
 
 ## ChromecastService
 system_ext/etc/permissions/com.google.android.chromecast.chromecastservice.xml
 system_ext/priv-app/ChromecastService/ChromecastService.apk
+
+## Bluetooth
+product/etc/sysconfig/com.google.android.feature.FAST_PAIRING.xml
 
 ## DRM
 vendor/bin/device_renew_key.bin

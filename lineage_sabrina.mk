@@ -31,8 +31,8 @@ PRODUCT_ATV_CLIENTID_BASE := ATV00100020-US
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sabrina_prod_stable \
-    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 12 STTL.231114.004 11218674 release-keys" \
+    PRIVATE_BUILD_DESC="sabrina_prod_stable-user 12 STTE.240315.002 11695351 release-keys" \
     TARGET_DEVICE=$(PRODUCT_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := google/sabrina_prod_stable/sabrina:12/STTL.231114.004/11218674:user/release-keys
+BUILD_FINGERPRINT := google/sabrina_prod_stable/sabrina:12/STTE.240315.002/11695351:user/release-keys
