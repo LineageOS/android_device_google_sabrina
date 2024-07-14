@@ -13,8 +13,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
-    $(LOCAL_PATH)/init-files/init.recovery.sabrina.rc:recovery/root/init.recovery.sabrina.rc \
-    $(LOCAL_PATH)/init-files/systemcontrol_sabrina.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemcontrol_sabrina.rc
+    $(LOCAL_PATH)/init-files/init.recovery.sabrina.rc:recovery/root/init.recovery.sabrina.rc
 
 ## Kernel Modules
 PRODUCT_PACKAGES += \
