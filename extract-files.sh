@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,9 +10,19 @@ function blob_fixup() {
     case "${1}" in
         # Use generic Light HAL context for led_control_service
         vendor/etc/init/led_control_service.rc)
+            [ "$2" = "" ] && return 0
             sed -i "8d" "${2}"
             ;;
+        *)
+            return 1
+            ;;
     esac
+
+    return 0
+}
+
+function blob_fixup_dry() {
+    blob_fixup "$1" ""
 }
 
 # If we're being sourced by the common script that we called,
