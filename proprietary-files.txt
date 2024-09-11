@@ -1,5 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from sabrina_prod_stable-user 12 STTL.240508.005 12011027 release-keys.
+## are from sabrina_prod_stable-user 12 STTE.240615.007 12033466 release-keys - (OTA image).
 
 ## ChromecastService
 system_ext/etc/permissions/com.google.android.chromecast.chromecastservice.xml
