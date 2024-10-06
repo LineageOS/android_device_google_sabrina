@@ -22,6 +22,30 @@
       },
       "revId": "d899e34bf368c31132c0bbdd120e1abe301a1d68",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "501aff62_e8ff17a3",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-06T16:21:49Z",
+      "side": 1,
+      "message": "great catch... I\u0027ll fix that",
+      "parentUuid": "67555fa6_83ea6d9b",
+      "range": {
+        "startLine": 17,
+        "startChar": 87,
+        "endLine": 17,
+        "endChar": 106
+      },
+      "revId": "d899e34bf368c31132c0bbdd120e1abe301a1d68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
