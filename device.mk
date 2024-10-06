@@ -16,6 +16,7 @@ include kernel/amlogic/kernel-modules/dhd-driver/firmware/bluetooth/bluetooth.mk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.sku.rc \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
+    $(LOCAL_PATH)/init-files/init.sabrina.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sabrina.rc
     $(LOCAL_PATH)/init-files/init.recovery.sabrina.rc:recovery/root/init.recovery.sabrina.rc
 
 ## Keylayout (IR)
