@@ -1,0 +1,5 @@
+on fs
+    wait /dev/block/platform/ffe07000.emmc/factory
+    mount ext4 /dev/block/platform/ffe07000.emmc/by-name /mnt/vendor/factory noatime nosuid nodev nodelalloc nomblk_io_submit
+    restorecon -R /mnt/vendor/efs
+    
