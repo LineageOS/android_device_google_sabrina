@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67555fa6_83ea6d9b",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-10-06T15:55:47Z",
+      "side": 1,
+      "message": "Unrelated, but what\u0027s importing this rc?",
+      "range": {
+        "startLine": 17,
+        "startChar": 87,
+        "endLine": 17,
+        "endChar": 106
+      },
+      "revId": "d899e34bf368c31132c0bbdd120e1abe301a1d68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
