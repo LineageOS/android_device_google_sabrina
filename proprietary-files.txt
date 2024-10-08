@@ -17,6 +17,7 @@ vendor/lib/liboemcrypto.so
 ## DRM - from adt3 12 STT1.211025.001.Z4 7928920 release-keys
 vendor/lib/libsecmem.so|291be9306e69f3b53c2c3526e128c1c283a15ce1
 
+<<<<<<< HEAD   (49ed1a sabrina: init: Remove bogus imports)
 ## TEE Applets - from sabrina_prod_stable-user 10 QTS2.200918.015 6966301 release-keys
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta|c0daf7a58f5bfd25fd49d86da92e8744f80b724e
 vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta|4135d496f2c4e71f06bb732dac39d905c6adf108
@@ -27,3 +28,64 @@ vendor/lib/teetz/af1ae3a4-888b-4e11-b4ab1c2b972d1c11.ta|6f0ae25dec008b06a97935df
 vendor/lib/teetz/d83c3c4a-9e8d-4e4e-ad309d40e137f689.ta|f55f6731160ca5aacb32e40665812a38c203b847
 vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c51b.ta|5c1102d7d3313f02d60d648e5e5838bd77ab7cd3
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta|17176fed1496791d501bf0b66d5b11d82e136ed5
+=======
+## Lights
+vendor/bin/led_control_service
+vendor/etc/init/led_control_service.rc
+
+## Low Power Warning
+system/bin/low_power_warning
+system/etc/init/low_power_warning.rc
+
+## NRDP
+vendor/etc/permissions/nrdp.xml
+vendor/etc/nrdp_audio_platform_capabilities.json
+vendor/etc/nrdp_platform_capabilities.json
+
+## ODM
+odm/etc/etc/bluetooth/bt_vendor.conf
+odm/etc/firmware/firmware.le
+odm/etc/tvconfig/pq/pq.db
+odm/etc/tvconfig/pq/pq_default.ini
+odm/lib/libHwAudio_dcvdec.so
+odm/lib/libHwAudio_dtshd.so
+odm/lib/modules/dovi.ko
+
+## Performance
+vendor/bin/performance_settings
+vendor/etc/init/performance_settings.rc
+
+## RemotecontrolLogging
+product/etc/permissions/com.google.android.tv.remotecontrol.logging.xml
+product/priv-app/RemotecontrolLogging/RemotecontrolLogging.apk
+
+## SUW (Remote Animation)
+product/etc/permissions/privapp-permissions-sabrina.xml
+product/priv-app/SuwCustomization/SuwCustomization.apk;OVERRIDES=DeadpoolService
+
+## TEE
+vendor/bin/tee_dec_hash
+vendor/bin/tee_hdcp
+vendor/bin/tee_key_inject
+vendor/bin/tee_lock_rpmb
+vendor/bin/tee_provision
+vendor/bin/tee_provision_password_hash
+vendor/etc/init/tee_hdcp.rc
+
+## TEE - SOC Specific
+vendor/bin/hw/android.hardware.security.keymint-service.amlogic
+
+## TEE Applets
+vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
+vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
+vendor/lib/teetz/93a424e2-5608-4413-84a858b16a064dce.ta
+vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
+vendor/lib/teetz/af1ae3a4-888b-4e11-b4ab1c2b972d1c11.ta
+vendor/lib/teetz/d83c3c4a-9e8d-4e4e-ad309d40e137f689.ta
+vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta
+
+## TV Axel
+product/priv-app/TVAxel/TVAxel.apk
+>>>>>>> CHANGE (a62f36 sabrina: Drop duplicated init.amlogic.sku.rc)
