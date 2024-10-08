@@ -59,9 +59,6 @@ vendor/etc/init/performance_settings.rc
 product/etc/permissions/com.google.android.tv.remotecontrol.logging.xml
 product/priv-app/RemotecontrolLogging/RemotecontrolLogging.apk
 
-## SKU
-vendor/etc/init/hw/init.amlogic.sku.rc
-
 ## SUW (Remote Animation)
 product/etc/permissions/privapp-permissions-sabrina.xml
 product/priv-app/SuwCustomization/SuwCustomization.apk;OVERRIDES=DeadpoolService
