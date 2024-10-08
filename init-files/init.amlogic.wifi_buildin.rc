@@ -1,5 +1,2 @@
-import /vendor/etc/init/hw/init.amlogic.sku.rc
-import /vendor/etc/init/hw/init.sabrina.product.rc
-
 on boot
     insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
