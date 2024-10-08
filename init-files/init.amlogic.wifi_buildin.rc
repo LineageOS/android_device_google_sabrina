@@ -1,4 +1,7 @@
+<<<<<<< HEAD   (636730 sabrina: Mount factory partition in init scripts)
 import /vendor/etc/init/hw/init.amlogic.sku.rc
 
+=======
+>>>>>>> CHANGE (2de9e9 sabrina: init: Remove bogus imports)
 on boot
     insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
