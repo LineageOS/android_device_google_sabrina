@@ -18,9 +18,6 @@ TARGET_BOOTLOADER_BOARD_NAME := sabrina
 ## DTB
 TARGET_DTB_NAME := sm1_s905d3_sabrina
 
-## Kernel
-TARGET_KERNEL_VARIANT_CONFIG := sabrina_defconfig
-
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
     dhd-driver/bcmdhd.101.10.361.x
@@ -47,7 +44,7 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/g12-common/BoardConfigCommon.mk
+include device/amlogic/sm1-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
 include vendor/google/sabrina/BoardConfigVendor.mk
