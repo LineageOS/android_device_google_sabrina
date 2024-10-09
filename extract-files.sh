@@ -13,6 +13,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i "8d" "${2}"
             ;;
+        vendor/etc/init/tee-supplicant.rc)
+            [ "$2" = "" ] && return 0
+            sed -i 's#/vendor/lib/#/vendor/lib/modules/#g' "${2}"
+            ;;
         *)
             return 1
             ;;
