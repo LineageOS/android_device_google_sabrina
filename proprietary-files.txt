@@ -36,6 +36,13 @@ vendor/etc/init/led_control_service.rc
 system/bin/low_power_warning
 system/etc/init/low_power_warning.rc
 
+## Netflix
+vendor/bin/hw/android.hardware.drm@1.4-service.netflix
+vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.netflix.xml
+vendor/lib/libnetflixplugin.so
+
 ## NRDP
 vendor/etc/permissions/nrdp.xml
 vendor/etc/nrdp_audio_platform_capabilities.json
