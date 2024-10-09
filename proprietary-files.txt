@@ -13,13 +13,12 @@ vendor/bin/device_renew_key.bin
 vendor/bin/generate_attestation_device_id
 vendor/bin/key_inject
 vendor/bin/hw/android.hardware.drm@1.0-service.castkey
-vendor/bin/hw/android.hardware.drm@1.4-service.netflix
 vendor/etc/cert-chain.crt
 vendor/etc/init/chromecast-init.rc
 vendor/etc/init/hw/init.sabrina.product.rc
 vendor/etc/init/key_inject.rc
 vendor/lib/libcast_auth.so
-vendor/lib/libnetflixplugin.so
+vendor/lib/libckhidl.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
 
@@ -62,15 +61,6 @@ product/priv-app/RemotecontrolLogging/RemotecontrolLogging.apk
 ## SUW (Remote Animation)
 product/etc/permissions/privapp-permissions-sabrina.xml
 product/priv-app/SuwCustomization/SuwCustomization.apk;OVERRIDES=DeadpoolService
-
-## TEE
-vendor/bin/tee_dec_hash
-vendor/bin/tee_hdcp
-vendor/bin/tee_key_inject
-vendor/bin/tee_lock_rpmb
-vendor/bin/tee_provision
-vendor/bin/tee_provision_password_hash
-vendor/etc/init/tee_hdcp.rc
 
 ## TEE - SOC Specific
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic
