@@ -16,6 +16,8 @@ ro.bt.bdaddr_path=/sys/class/bt_addr/value
 persist.vendor.sys.dolbyvision.enable=true
 persist.vendor.sys.tv.dolbyvision.enable=true
 ro.vendor.platform.support.dolbyvision=true
+ro.vendor.platform.support.dts=true
+sys.vendor.atmos.passthrough=enable
 vendor.media.support.dolbyvision=true
 
 ## NRDP
