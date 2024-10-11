@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Attestation
+ro.vendor.device_id_attestation=true
+
 ## Bluetooth
 bluetooth.device.class_of_device=44,4,32
 bluetooth.device.default_name=Chromecast
