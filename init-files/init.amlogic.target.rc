@@ -1,5 +1,8 @@
 import /vendor/etc/init/hw/init.sabrina.product.rc
 
+on post-fs-data
+    insmod /odm/lib/modules/dovi.ko
+
 on fs
     wait /dev/block/platform/ffe07000.emmc/factory
     mkdir /mnt/vendor/factory 0770 system system
