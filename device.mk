@@ -28,9 +28,6 @@ PRODUCT_PACKAGES += \
     NetflixConfig \
     SabrinaNetflixConfigOverlay
 
-## Platform
-TARGET_AMLOGIC_SOC := sm1
-
 ## Wi-Fi firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
 
