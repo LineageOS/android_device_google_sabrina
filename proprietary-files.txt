@@ -3,7 +3,7 @@
 
 ## ChromecastService
 system_ext/etc/permissions/com.google.android.chromecast.chromecastservice.xml
-system_ext/priv-app/ChromecastService/ChromecastService.apk
+#system_ext/priv-app/ChromecastService/ChromecastService.apk
 
 ## Bluetooth
 product/etc/sysconfig/com.google.android.feature.FAST_PAIRING.xml
@@ -24,9 +24,9 @@ vendor/lib/libsecmem.so
 
 ## Droidlogic - Device Specific
 system_ext/etc/permissions/droidlogic_permissions.xml
-system_ext/priv-app/droidlogic-res/droidlogic-res.apk
+#system_ext/priv-app/droidlogic-res/droidlogic-res.apk
 vendor/etc/permissions/droidlogic.software.core.xml
-vendor/framework/droidlogic.software.core.jar
+#vendor/framework/droidlogic.software.core.jar
 
 ## Lights
 vendor/bin/led_control_service
