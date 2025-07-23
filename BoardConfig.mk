@@ -18,9 +18,6 @@ TARGET_BOOTLOADER_BOARD_NAME := sabrina
 ## DTB
 TARGET_DTB_NAME := sm1_s905d3_sabrina
 
-## Kernel config
-TARGET_KERNEL_VARIANT_CONFIG ?= sm1_variant_defconfig
-
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
     dhd-driver/bcmdhd.101.10.361.x
