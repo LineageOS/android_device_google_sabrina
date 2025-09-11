@@ -9,6 +9,9 @@ PRODUCT_PACKAGES += \
     SabrinaBluetoothOverlay \
     libbt-vendor
 
+$(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
+$(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_sabrina.txt)
+
 ## Bluetooth firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/bluetooth/bluetooth.mk
 
@@ -30,6 +33,11 @@ PRODUCT_PACKAGES += \
 
 ## Platform
 TARGET_AMLOGIC_SOC := sm1
+
+## Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/broadcom/libbt
 
 ## Wi-Fi firmware
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
