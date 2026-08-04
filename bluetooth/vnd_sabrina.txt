@@ -1,3 +1,6 @@
+## SPDX-FileCopyrightText: The LineageOS Project
+## SPDX-License-Identifier: Apache-2.0
+
 BLUETOOTH_UART_DEVICE_PORT = "/dev/ttyS1"
 FW_PATCHFILE_LOCATION = "/vendor/etc/bluetooth/"
 UART_TARGET_BAUD_RATE = 2000000
