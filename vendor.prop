@@ -1,8 +1,3 @@
-#
-# SPDX-FileCopyrightText: The LineageOS Project
-# SPDX-License-Identifier: Apache-2.0
-#
-
 ## Attestation
 ro.vendor.device_id_attestation=true
 
