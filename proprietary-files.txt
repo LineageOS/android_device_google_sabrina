@@ -8,6 +8,9 @@ system_ext/etc/permissions/com.google.android.chromecast.chromecastservice.xml
 ## Bluetooth
 product/etc/sysconfig/com.google.android.feature.FAST_PAIRING.xml
 
+## Bluetooth Firmware
+vendor/etc/bluetooth/BCM4359C0.hcd
+
 ## DRM
 vendor/bin/device_renew_key.bin
 vendor/bin/generate_attestation_device_id
@@ -108,3 +111,8 @@ vendor/etc/init/tee_hdcp.rc
 
 ## TV Axel
 product/priv-app/TVAxel/TVAxel.apk
+
+## Wi-Fi Firmware
+vendor/etc/wifi/buildin/config.txt:vendor/firmware/wifi/config_bcm4359c0_ag.txt
+vendor/etc/wifi/buildin/fw_bcm4359c0_ag.bin:vendor/firmware/wifi/fw_bcm4359c0_ag.bin
+vendor/etc/wifi/buildin/nvram_ap6398s.txt:vendor/firmware/wifi/nvram_ap6398s.txt
