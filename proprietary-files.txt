@@ -28,6 +28,9 @@ system_ext/etc/permissions/droidlogic_permissions.xml
 vendor/etc/permissions/droidlogic.software.core.xml
 #vendor/framework/droidlogic.software.core.jar
 
+## Graphics - from adt3-user 13 TTT1.230205.001 9565391 release-keys
+vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so
+
 ## Lights
 vendor/bin/led_control_service
 vendor/etc/init/led_control_service.rc
