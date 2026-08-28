@@ -16,6 +16,24 @@
       "message": "Must be pinned",
       "revId": "2b7285c31fd296b038482f26373b4b27d4e8e367",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8a23fbc_a7ff7bf4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-28T20:22:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76aff341_97d4a7b2",
+      "revId": "2b7285c31fd296b038482f26373b4b27d4e8e367",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
