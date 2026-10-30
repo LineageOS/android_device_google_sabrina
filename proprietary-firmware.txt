@@ -1,3 +1,3 @@
-# Firmware - from sabrina_prod_stable-user 12 STTE.240615.007 12033466 release-keys - (OTA image).
+# Firmware - from  google/sabrina_prod_stable/sabrina:14/UTTC.250917.004/14193937:user/release-keys.
 
 bootloader.img
