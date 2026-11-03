@@ -105,6 +105,6 @@ vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta
 product/priv-app/TVAxel/TVAxel.apk
 
 ## Wi-Fi Firmware
-vendor/etc/wifi/buildin/config.txt:vendor/firmware/wifi/config_bcm4359c0_ag.txt
-vendor/etc/wifi/buildin/fw_bcm4359c0_ag.bin:vendor/firmware/wifi/fw_bcm4359c0_ag.bin
-vendor/etc/wifi/buildin/nvram_ap6398s.txt:vendor/firmware/wifi/nvram_ap6398s.txt
+vendor/etc/wifi/buildin/config.txt:vendor/lib/firmware/config_bcm4359c0_ag.txt
+vendor/etc/wifi/buildin/fw_bcm4359c0_ag.bin:vendor/lib/firmware/fw_bcm4359c0_ag.bin
+vendor/etc/wifi/buildin/nvram_ap6398s.txt:vendor/lib/firmware/nvram_ap6398s.txt

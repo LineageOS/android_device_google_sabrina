@@ -15,7 +15,6 @@ $(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_sabrina.
 PRODUCT_PACKAGES += \
     init.amlogic.sku.rc \
     init.amlogic.target.rc \
-    init.amlogic.wifi_buildin.rc \
     init.recovery.sabrina.rc
 
 ## Keylayout (IR)
