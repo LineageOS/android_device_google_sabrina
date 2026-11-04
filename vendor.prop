@@ -17,6 +17,9 @@ vendor.media.support.dolbyvision=true
 ro.vendor.nrdp.audio.mixer.buffersize=1024
 ro.vendor.nrdp.modelgroup=sabrina
 
+## Recovery
+ro.minui.blacklist_input_devices=cec_input
+
 ## SOC
 ro.soc.model=AMLS905D3
 
