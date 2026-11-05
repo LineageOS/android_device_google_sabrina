@@ -48,6 +48,7 @@ amlogic-rtc.ko
 amlogic-pcie.ko
 user_fault.ko
 amlogic-socinfo.ko
+amlogic-bl40.ko
 amlogic-host.ko
 amlogic-led.ko
 amlogic-mdio-g12a.ko
