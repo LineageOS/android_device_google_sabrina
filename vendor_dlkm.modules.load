@@ -11,6 +11,7 @@ i2c-dev.ko
 v4l2-async.ko
 v4l2-fwnode.ko
 leds-gpio.ko
+leds-pwm.ko
 hid-apple.ko
 hid-elecom.ko
 hid-logitech.ko
@@ -66,3 +67,9 @@ amlogic-snd-codec-ad82128.ko
 cfg80211.ko
 mac80211.ko
 dhd.ko
+hwmon.ko
+ntc_thermistor.ko
+google_tcpm.ko
+google_tcpci.ko
+google_tcpci_rt1711h.ko
+google_usb_power_monitor.ko
