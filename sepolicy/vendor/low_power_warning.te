@@ -1,0 +1,25 @@
+type low_power_warning, domain;
+type low_power_warning_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(low_power_warning)
+
+allow low_power_warning audio_device:chr_file rw_file_perms;
+allow low_power_warning audio_device:dir r_dir_perms;
+allow low_power_warning device:dir r_dir_perms;
+allow low_power_warning display_device:chr_file rw_file_perms;
+allow low_power_warning gpu_device:chr_file rw_file_perms;
+allow low_power_warning gpu_device:dir r_dir_perms;
+allow low_power_warning graphics_device:chr_file rw_file_perms;
+allow low_power_warning graphics_device:dir r_dir_perms;
+allow low_power_warning sysfs:file r_file_perms;
+allow low_power_warning sysfs:dir r_dir_perms;
+allow low_power_warning sysfs:lnk_file read;
+
+r_dir_file(low_power_warning, proc_asound)
+r_dir_file(low_power_warning, sysfs_batteryinfo)
+r_dir_file(low_power_warning, sysfs_thermal)
+
+allow low_power_warning sysfs_typec:file r_file_perms;
+
+get_prop(low_power_warning, recovery_config_prop)
+get_prop(low_power_warning, vendor_default_prop)
