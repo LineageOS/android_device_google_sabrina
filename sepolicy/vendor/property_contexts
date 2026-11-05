@@ -1,0 +1,2 @@
+ro.vendor.sys.led_name_             u:object_r:vendor_led_prop:s0
+sys.vendor.atmos.passthrough        u:object_r:vendor_default_prop:s0

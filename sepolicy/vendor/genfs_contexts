@@ -1,0 +1,2 @@
+genfscon proc /irq u:object_r:vendor_proc_irq:s0
+genfscon sysfs /devices/platform/soc/ff800000.aobus/ff805000.i2c/i2c-4/4-004e/typec u:object_r:sysfs_typec:s0
