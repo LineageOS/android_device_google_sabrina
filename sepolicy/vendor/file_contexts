@@ -2,3 +2,7 @@
 /sys/devices/platform/pwmleds/leds/orange_led/max_brightness  u:object_r:sysfs_leds:s0
 /sys/devices/platform/pwmleds/leds/white_led/brightness       u:object_r:sysfs_leds:s0
 /sys/devices/platform/pwmleds/leds/white_led/max_brightness   u:object_r:sysfs_leds:s0
+
+/sys/devices/platform/soc/ff800000.aobus/ff805000.i2c/i2c-4/4-004e/power_supply/tcpm-(max-)?source-psy-4-004e/wakeup[0-9]+(/.*)?  u:object_r:sysfs_wakeup:s0
+
+/odm/bin/low_power_warning    u:object_r:low_power_warning_exec:s0
