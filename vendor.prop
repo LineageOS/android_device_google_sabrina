@@ -13,6 +13,10 @@ ro.vendor.platform.support.dolbyvision=true
 sys.vendor.atmos.passthrough=enable
 vendor.media.support.dolbyvision=true
 
+## LEDs
+ro.vendor.sys.led_name_orange=orange_led
+ro.vendor.sys.led_name_white=white_led
+
 ## NRDP
 ro.vendor.nrdp.audio.mixer.buffersize=1024
 ro.vendor.nrdp.modelgroup=sabrina
