@@ -1,0 +1,1 @@
+allow performance_settings self:capability dac_override;
