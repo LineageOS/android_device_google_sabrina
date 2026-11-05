@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2b099b0_399772f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-05T16:16:58Z",
+      "side": 1,
+      "message": "This sepolicy makes no sense here and belongs to the previous change. But you could as well squash the entrie change.",
+      "revId": "3cc5cdf2ba230e5cf091c794ed09ead7e5e46306",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
