@@ -14,6 +14,21 @@
             ],
             "Multiplier":0.001,
             "Monitor":true
+        },
+        {
+            "Name":"skin_thermal",
+            "Type":"SKIN",
+            "HotThreshold":[
+                "NAN",
+                69.0,
+                70.0,
+                71.0,
+                72.0,
+                "NAN",
+                73.0
+            ],
+            "Multiplier":0.001,
+            "Monitor":true
         }
     ],
     "CoolingDevices":[
