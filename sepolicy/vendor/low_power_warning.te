@@ -19,6 +19,8 @@ r_dir_file(low_power_warning, proc_asound)
 r_dir_file(low_power_warning, sysfs_batteryinfo)
 r_dir_file(low_power_warning, sysfs_thermal)
 
+allow low_power_warning self:capability sys_admin;
+
 allow low_power_warning sysfs_typec:file r_file_perms;
 
 get_prop(low_power_warning, recovery_config_prop)
