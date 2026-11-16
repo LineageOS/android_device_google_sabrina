@@ -1,0 +1,4414 @@
+diff --git a/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy.smali b/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy.smali
+index 801e247..5b01c29 100644
+--- a/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy.smali
++++ b/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy.smali
+@@ -70,7 +70,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa1
++    const/16 v3, 0xad
+ 
+     const/4 v4, 0x0
+ 
+@@ -144,7 +144,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xf2
++    const/16 p3, 0x118
+ 
+     const/4 v1, 0x0
+ 
+@@ -215,7 +215,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xf3
++    const/16 v1, 0x119
+ 
+     const/4 v2, 0x0
+ 
+@@ -283,7 +283,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xdb
++    const/16 v2, 0xea
+ 
+     const/4 v3, 0x0
+ 
+@@ -357,7 +357,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x41
++    const/16 v3, 0x42
+ 
+     const/4 v4, 0x0
+ 
+@@ -417,7 +417,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x86
++    const/16 v3, 0x91
+ 
+     const/4 v4, 0x0
+ 
+@@ -684,7 +684,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1b
++    const/16 v2, 0x1c
+ 
+     const/4 v3, 0x0
+ 
+@@ -755,7 +755,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x1c
++    const/16 v1, 0x1d
+ 
+     const/4 v2, 0x0
+ 
+@@ -840,7 +840,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc7
++    const/16 p3, 0xd3
+ 
+     const/4 v1, 0x0
+ 
+@@ -917,7 +917,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcd
++    const/16 p3, 0xd9
+ 
+     const/4 p4, 0x0
+ 
+@@ -997,7 +997,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc9
++    const/16 p3, 0xd5
+ 
+     const/4 p4, 0x0
+ 
+@@ -1062,7 +1062,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb7
++    const/16 v3, 0xc3
+ 
+     const/4 v4, 0x0
+ 
+@@ -1139,7 +1139,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcf
++    const/16 p3, 0xdb
+ 
+     const/4 p4, 0x0
+ 
+@@ -1216,7 +1216,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc5
++    const/16 p3, 0xd1
+ 
+     const/4 p4, 0x0
+ 
+@@ -1281,7 +1281,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xc1
++    const/16 v3, 0xcd
+ 
+     const/4 v4, 0x0
+ 
+@@ -1346,7 +1346,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb9
++    const/16 v3, 0xc5
+ 
+     const/4 v4, 0x0
+ 
+@@ -1426,7 +1426,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcb
++    const/16 p3, 0xd7
+ 
+     const/4 p4, 0x0
+ 
+@@ -1503,7 +1503,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x96
++    const/16 p3, 0xa2
+ 
+     const/4 p4, 0x0
+ 
+@@ -1583,7 +1583,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x99
++    const/16 p3, 0xa5
+ 
+     const/4 p4, 0x0
+ 
+@@ -1663,7 +1663,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x89
++    const/16 p3, 0x95
+ 
+     const/4 p4, 0x0
+ 
+@@ -1740,7 +1740,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8b
++    const/16 p3, 0x97
+ 
+     const/4 p4, 0x0
+ 
+@@ -1817,7 +1817,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8f
++    const/16 p3, 0x9b
+ 
+     const/4 p4, 0x0
+ 
+@@ -1894,7 +1894,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8d
++    const/16 p3, 0x99
+ 
+     const/4 p4, 0x0
+ 
+@@ -1971,7 +1971,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x91
++    const/16 p3, 0x9d
+ 
+     const/4 p4, 0x0
+ 
+@@ -2051,7 +2051,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xd1
++    const/16 p3, 0xdd
+ 
+     const/4 p4, 0x0
+ 
+@@ -2116,7 +2116,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x93
++    const/16 v3, 0x9f
+ 
+     const/4 v4, 0x0
+ 
+@@ -2181,7 +2181,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9b
++    const/16 v3, 0xa7
+ 
+     const/4 v4, 0x0
+ 
+@@ -2246,7 +2246,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x92
++    const/16 v3, 0x9e
+ 
+     const/4 v4, 0x0
+ 
+@@ -2311,7 +2311,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9a
++    const/16 v3, 0xa6
+ 
+     const/4 v4, 0x0
+ 
+@@ -2388,7 +2388,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc6
++    const/16 p3, 0xd2
+ 
+     const/4 p4, 0x0
+ 
+@@ -2468,7 +2468,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcc
++    const/16 p3, 0xd8
+ 
+     const/4 p4, 0x0
+ 
+@@ -2551,7 +2551,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc8
++    const/16 p3, 0xd4
+ 
+     const/4 p4, 0x0
+ 
+@@ -2619,7 +2619,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb6
++    const/16 v2, 0xc2
+ 
+     const/4 v3, 0x0
+ 
+@@ -2699,7 +2699,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xce
++    const/16 p3, 0xda
+ 
+     const/4 p4, 0x0
+ 
+@@ -2779,7 +2779,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc4
++    const/16 p3, 0xd0
+ 
+     const/4 p4, 0x0
+ 
+@@ -2853,7 +2853,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9c
++    const/16 p3, 0xa8
+ 
+     const/4 v1, 0x0
+ 
+@@ -2921,7 +2921,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xc0
++    const/16 v2, 0xcc
+ 
+     const/4 v3, 0x0
+ 
+@@ -2989,7 +2989,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb8
++    const/16 v2, 0xc4
+ 
+     const/4 v3, 0x0
+ 
+@@ -3072,7 +3072,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xca
++    const/16 p3, 0xd6
+ 
+     const/4 p4, 0x0
+ 
+@@ -3164,7 +3164,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x95
++    const/16 p3, 0xa1
+ 
+     const/4 p4, 0x0
+ 
+@@ -3253,7 +3253,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x98
++    const/16 p3, 0xa4
+ 
+     const/4 p4, 0x0
+ 
+@@ -3333,7 +3333,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x88
++    const/16 p3, 0x94
+ 
+     const/4 p4, 0x0
+ 
+@@ -3413,7 +3413,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8a
++    const/16 p3, 0x96
+ 
+     const/4 p4, 0x0
+ 
+@@ -3493,7 +3493,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8e
++    const/16 p3, 0x9a
+ 
+     const/4 p4, 0x0
+ 
+@@ -3573,7 +3573,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8c
++    const/16 p3, 0x98
+ 
+     const/4 p4, 0x0
+ 
+@@ -3653,7 +3653,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x90
++    const/16 p3, 0x9c
+ 
+     const/4 p4, 0x0
+ 
+@@ -3718,7 +3718,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x94
++    const/16 v3, 0xa0
+ 
+     const/4 v4, 0x0
+ 
+@@ -3801,7 +3801,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xd0
++    const/16 p3, 0xdc
+ 
+     const/4 p4, 0x0
+ 
+@@ -3869,7 +3869,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x97
++    const/16 v2, 0xa3
+ 
+     const/4 v3, 0x0
+ 
+@@ -4010,7 +4010,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x9f
++    const/16 v2, 0xab
+ 
+     const/4 v3, 0x0
+ 
+@@ -4078,7 +4078,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xa0
++    const/16 v2, 0xac
+ 
+     const/4 v3, 0x0
+ 
+@@ -4143,7 +4143,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd9
++    const/16 v3, 0xe6
+ 
+     const/4 v4, 0x0
+ 
+@@ -4208,7 +4208,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdd
++    const/16 v3, 0xec
+ 
+     const/4 v4, 0x0
+ 
+@@ -4273,7 +4273,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x73
++    const/16 v3, 0x7a
+ 
+     const/4 v4, 0x0
+ 
+@@ -4341,7 +4341,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x74
++    const/16 v2, 0x7b
+ 
+     const/4 v3, 0x0
+ 
+@@ -4406,7 +4406,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7c
++    const/16 v3, 0x83
+ 
+     const/4 v4, 0x0
+ 
+@@ -4471,7 +4471,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe2
++    const/16 v3, 0xfb
+ 
+     const/4 v4, 0x0
+ 
+@@ -4539,7 +4539,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1e
++    const/16 v2, 0x1f
+ 
+     const/4 v3, 0x0
+ 
+@@ -4612,7 +4612,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x4d
++    const/16 v3, 0x4e
+ 
+     const/4 v4, 0x0
+ 
+@@ -4677,7 +4677,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd2
++    const/16 v3, 0xdf
+ 
+     const/4 v4, 0x0
+ 
+@@ -4750,7 +4750,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x82
++    const/16 v3, 0x89
+ 
+     const/4 v4, 0x0
+ 
+@@ -4815,7 +4815,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdf
++    const/16 v3, 0xf3
+ 
+     const/4 v4, 0x0
+ 
+@@ -4880,7 +4880,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x48
++    const/16 v3, 0x49
+ 
+     const/4 v4, 0x0
+ 
+@@ -4945,7 +4945,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x4b
++    const/16 v3, 0x4c
+ 
+     const/4 v4, 0x0
+ 
+@@ -5013,7 +5013,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x50
++    const/16 v3, 0x51
+ 
+     const/4 v4, 0x0
+ 
+@@ -5078,7 +5078,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa6
++    const/16 v3, 0xb2
+ 
+     const/4 v4, 0x0
+ 
+@@ -5154,7 +5154,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x84
++    const/16 v3, 0x8f
+ 
+     const/4 v4, 0x0
+ 
+@@ -5219,7 +5219,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7e
++    const/16 v3, 0x85
+ 
+     const/4 v4, 0x0
+ 
+@@ -5355,7 +5355,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2a
++    const/16 v2, 0x2b
+ 
+     const/4 v3, 0x0
+ 
+@@ -5428,7 +5428,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x80
++    const/16 v3, 0x87
+ 
+     const/4 v4, 0x0
+ 
+@@ -5493,7 +5493,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x3d
++    const/16 v3, 0x3e
+ 
+     const/4 v4, 0x0
+ 
+@@ -5566,7 +5566,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x3a
++    const/16 v3, 0x3b
+ 
+     const/4 v4, 0x0
+ 
+@@ -5642,7 +5642,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x6f
++    const/16 v2, 0x76
+ 
+     const/4 v3, 0x0
+ 
+@@ -5716,7 +5716,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc3
++    const/16 p3, 0xcf
+ 
+     const/4 v1, 0x0
+ 
+@@ -5781,7 +5781,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe6
++    const/16 v3, 0xff
+ 
+     const/4 v4, 0x0
+ 
+@@ -5846,7 +5846,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2d
++    const/16 v3, 0x2e
+ 
+     const/4 v4, 0x0
+ 
+@@ -5919,7 +5919,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x20
++    const/16 v3, 0x21
+ 
+     const/4 v4, 0x0
+ 
+@@ -5995,7 +5995,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x78
++    const/16 v3, 0x7f
+ 
+     const/4 v4, 0x0
+ 
+@@ -6063,7 +6063,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x64
++    const/16 v2, 0x67
+ 
+     const/4 v3, 0x0
+ 
+@@ -6128,7 +6128,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x66
++    const/16 v3, 0x69
+ 
+     const/4 v4, 0x0
+ 
+@@ -6193,7 +6193,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2f
++    const/16 v3, 0x30
+ 
+     const/4 v4, 0x0
+ 
+@@ -6266,7 +6266,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x62
++    const/16 v3, 0x65
+ 
+     const/4 v4, 0x0
+ 
+@@ -6473,7 +6473,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xf1
++    const/16 v3, 0x117
+ 
+     const/4 v4, 0x0
+ 
+@@ -6546,7 +6546,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xef
++    const/16 v3, 0x115
+ 
+     const/4 v4, 0x0
+ 
+@@ -6619,7 +6619,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x56
++    const/16 v3, 0x57
+ 
+     const/4 v4, 0x0
+ 
+@@ -6684,7 +6684,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xed
++    const/16 v3, 0x113
+ 
+     const/4 v4, 0x0
+ 
+@@ -6749,7 +6749,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x46
++    const/16 v3, 0x47
+ 
+     const/4 v4, 0x0
+ 
+@@ -6814,7 +6814,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7a
++    const/16 v3, 0x81
+ 
+     const/4 v4, 0x0
+ 
+@@ -6879,7 +6879,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe4
++    const/16 v3, 0xfd
+ 
+     const/4 v4, 0x0
+ 
+@@ -6944,7 +6944,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x6b
++    const/16 v3, 0x72
+ 
+     const/4 v4, 0x0
+ 
+@@ -7009,7 +7009,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x6d
++    const/16 v3, 0x74
+ 
+     const/4 v4, 0x0
+ 
+@@ -7074,7 +7074,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x69
++    const/16 v3, 0x70
+ 
+     const/4 v4, 0x0
+ 
+@@ -7145,7 +7145,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe0
++    const/16 v1, 0xf4
+ 
+     const/4 v2, 0x0
+ 
+@@ -7210,7 +7210,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x5c
++    const/16 v3, 0x5f
+ 
+     const/4 v4, 0x0
+ 
+@@ -7278,7 +7278,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x87
++    const/16 v2, 0x92
+ 
+     const/4 v3, 0x0
+ 
+@@ -7349,7 +7349,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd3
++    const/16 v2, 0xe0
+ 
+     const/4 v3, 0x0
+ 
+@@ -7417,7 +7417,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x44
++    const/16 v3, 0x45
+ 
+     const/4 v4, 0x0
+ 
+@@ -7485,7 +7485,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x28
++    const/16 v2, 0x29
+ 
+     const/4 v3, 0x0
+ 
+@@ -7575,7 +7575,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x35
++    const/16 v3, 0x36
+ 
+     const/4 v4, 0x0
+ 
+@@ -7724,7 +7724,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb
++    const/16 v2, 0xc
+ 
+     const/4 v3, 0x0
+ 
+@@ -7803,7 +7803,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xf
++    const/16 v1, 0x10
+ 
+     const/4 v2, 0x0
+ 
+@@ -7882,7 +7882,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xd
++    const/16 v1, 0xe
+ 
+     const/4 v2, 0x0
+ 
+@@ -7961,7 +7961,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xe
++    const/16 p3, 0xf
+ 
+     const/4 v1, 0x0
+ 
+@@ -8040,7 +8040,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xc
++    const/16 v1, 0xd
+ 
+     const/4 v2, 0x0
+ 
+@@ -8113,7 +8113,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb4
++    const/16 v3, 0xc0
+ 
+     const/4 v4, 0x0
+ 
+@@ -8178,7 +8178,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa4
++    const/16 v3, 0xb0
+ 
+     const/4 v4, 0x0
+ 
+@@ -8243,7 +8243,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x53
++    const/16 v3, 0x54
+ 
+     const/4 v4, 0x0
+ 
+@@ -8308,7 +8308,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xea
++    const/16 v3, 0x110
+ 
+     const/4 v4, 0x0
+ 
+@@ -8373,7 +8373,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x59
++    const/16 v3, 0x5a
+ 
+     const/4 v4, 0x0
+ 
+@@ -8438,7 +8438,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x5f
++    const/16 v3, 0x62
+ 
+     const/4 v4, 0x0
+ 
+@@ -8503,7 +8503,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x85
++    const/16 v3, 0x90
+ 
+     const/4 v4, 0x0
+ 
+@@ -8568,7 +8568,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe8
++    const/16 v3, 0x10e
+ 
+     const/4 v4, 0x0
+ 
+@@ -8706,7 +8706,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x39
++    const/16 v3, 0x3a
+ 
+     const/4 v4, 0x0
+ 
+@@ -8791,7 +8791,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xaf
++    const/16 p3, 0xbb
+ 
+     const/4 p4, 0x0
+ 
+@@ -8868,7 +8868,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xae
++    const/16 p3, 0xba
+ 
+     const/4 p4, 0x0
+ 
+@@ -8945,7 +8945,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xad
++    const/16 p3, 0xb9
+ 
+     const/4 p4, 0x0
+ 
+@@ -9022,7 +9022,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb2
++    const/16 p3, 0xbe
+ 
+     const/4 p4, 0x0
+ 
+@@ -9099,7 +9099,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb1
++    const/16 p3, 0xbd
+ 
+     const/4 p4, 0x0
+ 
+@@ -9176,7 +9176,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb0
++    const/16 p3, 0xbc
+ 
+     const/4 p4, 0x0
+ 
+@@ -9241,7 +9241,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd7
++    const/16 v3, 0xe4
+ 
+     const/4 v4, 0x0
+ 
+@@ -9306,7 +9306,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdc
++    const/16 v3, 0xeb
+ 
+     const/4 v4, 0x0
+ 
+@@ -9371,7 +9371,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x67
++    const/16 v3, 0x6e
+ 
+     const/4 v4, 0x0
+ 
+@@ -9436,7 +9436,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x60
++    const/16 v3, 0x63
+ 
+     const/4 v4, 0x0
+ 
+@@ -9516,7 +9516,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x38
++    const/16 v3, 0x39
+ 
+     const/4 v4, 0x0
+ 
+@@ -9715,7 +9715,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa
++    const/16 v3, 0xb
+ 
+     const/4 v4, 0x0
+ 
+@@ -9801,7 +9801,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x42
++    const/16 v2, 0x43
+ 
+     const/4 v3, 0x0
+ 
+@@ -9872,7 +9872,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x21
++    const/16 v1, 0x22
+ 
+     const/4 v2, 0x0
+ 
+@@ -9932,7 +9932,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9
++    const/16 v3, 0xa
+ 
+     const/4 v4, 0x0
+ 
+@@ -10114,7 +10114,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xda
++    const/16 v3, 0xe7
+ 
+     const/4 v4, 0x0
+ 
+@@ -10190,7 +10190,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x11
++    const/16 v2, 0x12
+ 
+     const/4 v3, 0x0
+ 
+@@ -10266,7 +10266,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1a
++    const/16 v2, 0x1b
+ 
+     const/4 v3, 0x0
+ 
+@@ -10342,7 +10342,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x32
++    const/16 v2, 0x33
+ 
+     const/4 v3, 0x0
+ 
+@@ -10418,7 +10418,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x75
++    const/16 v2, 0x7c
+ 
+     const/4 v3, 0x0
+ 
+@@ -10489,7 +10489,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x76
++    const/16 v1, 0x7d
+ 
+     const/4 v2, 0x0
+ 
+@@ -10557,7 +10557,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x4e
++    const/16 v2, 0x4f
+ 
+     const/4 v3, 0x0
+ 
+@@ -10625,7 +10625,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x49
++    const/16 v2, 0x4a
+ 
+     const/4 v3, 0x0
+ 
+@@ -10693,7 +10693,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x51
++    const/16 v2, 0x52
+ 
+     const/4 v3, 0x0
+ 
+@@ -10764,7 +10764,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x29
++    const/16 v1, 0x2a
+ 
+     const/4 v2, 0x0
+ 
+@@ -10830,7 +10830,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x70
++    const/16 v1, 0x77
+ 
+     const/4 v2, 0x0
+ 
+@@ -10898,7 +10898,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x57
++    const/16 v2, 0x58
+ 
+     const/4 v3, 0x0
+ 
+@@ -10966,7 +10966,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x5d
++    const/16 v2, 0x60
+ 
+     const/4 v3, 0x0
+ 
+@@ -11034,7 +11034,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x45
++    const/16 v2, 0x46
+ 
+     const/4 v3, 0x0
+ 
+@@ -11102,7 +11102,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x54
++    const/16 v2, 0x55
+ 
+     const/4 v3, 0x0
+ 
+@@ -11170,7 +11170,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x5a
++    const/16 v2, 0x5b
+ 
+     const/4 v3, 0x0
+ 
+@@ -11265,7 +11265,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb3
++    const/16 p3, 0xbf
+ 
+     const/4 p4, 0x0
+ 
+@@ -11333,7 +11333,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x37
++    const/16 v2, 0x38
+ 
+     const/4 v3, 0x0
+ 
+@@ -11464,7 +11464,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd8
++    const/16 v2, 0xe5
+ 
+     const/4 v3, 0x0
+ 
+@@ -11549,7 +11549,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x34
++    const/16 p3, 0x35
+ 
+     const/4 v1, 0x0
+ 
+@@ -11595,6 +11595,11 @@
+         }
+     .end annotation
+ 
++    new-instance v0, Landroid/os/RemoteException;
++    const-string v1, "setAudioParam is not implemented by this systemcontrol HAL"
++    invoke-direct {v0, v1}, Landroid/os/RemoteException;-><init>(Ljava/lang/String;)V
++    throw v0
++
+     .line 6054
+     new-instance v0, Landroid/os/HwParcel;
+ 
+@@ -11705,7 +11710,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x71
++    const/16 v1, 0x78
+ 
+     const/4 v2, 0x0
+ 
+@@ -11779,7 +11784,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x72
++    const/16 p3, 0x79
+ 
+     const/4 v1, 0x0
+ 
+@@ -11850,7 +11855,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7b
++    const/16 v1, 0x82
+ 
+     const/4 v2, 0x0
+ 
+@@ -11921,7 +11926,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe1
++    const/16 v1, 0xfa
+ 
+     const/4 v2, 0x0
+ 
+@@ -12055,7 +12060,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x1f
++    const/16 v1, 0x20
+ 
+     const/4 v2, 0x0
+ 
+@@ -12121,7 +12126,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x4c
++    const/16 v1, 0x4d
+ 
+     const/4 v2, 0x0
+ 
+@@ -12186,7 +12191,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa3
++    const/16 v3, 0xaf
+ 
+     const/4 v4, 0x0
+ 
+@@ -12266,7 +12271,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x33
++    const/16 v2, 0x34
+ 
+     const/4 v3, 0x0
+ 
+@@ -12332,7 +12337,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x81
++    const/16 v1, 0x88
+ 
+     const/4 v2, 0x0
+ 
+@@ -12403,7 +12408,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xde
++    const/16 v1, 0xf2
+ 
+     const/4 v2, 0x0
+ 
+@@ -12542,7 +12547,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x47
++    const/16 v1, 0x48
+ 
+     const/4 v2, 0x0
+ 
+@@ -12619,7 +12624,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x4a
++    const/16 p3, 0x4b
+ 
+     const/4 p4, 0x0
+ 
+@@ -12690,7 +12695,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x4f
++    const/16 v1, 0x50
+ 
+     const/4 v2, 0x0
+ 
+@@ -12758,7 +12763,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd5
++    const/16 v2, 0xe2
+ 
+     const/4 v3, 0x0
+ 
+@@ -12826,7 +12831,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd4
++    const/16 v2, 0xe1
+ 
+     const/4 v3, 0x0
+ 
+@@ -12900,7 +12905,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa5
++    const/16 p3, 0xb1
+ 
+     const/4 v1, 0x0
+ 
+@@ -12971,7 +12976,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x83
++    const/16 v1, 0x8e
+ 
+     const/4 v2, 0x0
+ 
+@@ -13042,7 +13047,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7d
++    const/16 v1, 0x84
+ 
+     const/4 v2, 0x0
+ 
+@@ -13113,7 +13118,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7f
++    const/16 v1, 0x86
+ 
+     const/4 v2, 0x0
+ 
+@@ -13181,7 +13186,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x24
++    const/16 v2, 0x25
+ 
+     const/4 v3, 0x0
+ 
+@@ -13244,7 +13249,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3c
++    const/16 v2, 0x3d
+ 
+     const/4 v3, 0x0
+ 
+@@ -13307,7 +13312,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3b
++    const/16 v2, 0x3c
+ 
+     const/4 v3, 0x0
+ 
+@@ -13376,7 +13381,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x6e
++    const/16 p3, 0x75
+ 
+     const/4 v1, 0x0
+ 
+@@ -13453,7 +13458,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc2
++    const/16 p3, 0xce
+ 
+     const/4 p4, 0x0
+ 
+@@ -13524,7 +13529,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe5
++    const/16 v1, 0xfe
+ 
+     const/4 v2, 0x0
+ 
+@@ -13592,7 +13597,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2b
++    const/16 v2, 0x2c
+ 
+     const/4 v3, 0x0
+ 
+@@ -13655,7 +13660,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd6
++    const/16 v2, 0xe3
+ 
+     const/4 v3, 0x0
+ 
+@@ -13726,7 +13731,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x77
++    const/16 v1, 0x7e
+ 
+     const/4 v2, 0x0
+ 
+@@ -13800,7 +13805,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x63
++    const/16 p3, 0x66
+ 
+     const/4 v1, 0x0
+ 
+@@ -13871,7 +13876,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x65
++    const/16 v1, 0x68
+ 
+     const/4 v2, 0x0
+ 
+@@ -13939,7 +13944,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2e
++    const/16 v2, 0x2f
+ 
+     const/4 v3, 0x0
+ 
+@@ -14062,7 +14067,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x61
++    const/16 v1, 0x64
+ 
+     const/4 v2, 0x0
+ 
+@@ -14130,7 +14135,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x30
++    const/16 v2, 0x31
+ 
+     const/4 v3, 0x0
+ 
+@@ -14193,7 +14198,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xf0
++    const/16 v2, 0x116
+ 
+     const/4 v3, 0x0
+ 
+@@ -14256,7 +14261,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xee
++    const/16 v2, 0x114
+ 
+     const/4 v3, 0x0
+ 
+@@ -14322,7 +14327,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x55
++    const/16 v1, 0x56
+ 
+     const/4 v2, 0x0
+ 
+@@ -14390,7 +14395,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xbb
++    const/16 v2, 0xc7
+ 
+     const/4 v3, 0x0
+ 
+@@ -14458,7 +14463,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xba
++    const/16 v2, 0xc6
+ 
+     const/4 v3, 0x0
+ 
+@@ -14529,7 +14534,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x79
++    const/16 v1, 0x80
+ 
+     const/4 v2, 0x0
+ 
+@@ -14600,7 +14605,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe3
++    const/16 v1, 0xfc
+ 
+     const/4 v2, 0x0
+ 
+@@ -14671,7 +14676,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x6a
++    const/16 v1, 0x71
+ 
+     const/4 v2, 0x0
+ 
+@@ -14742,7 +14747,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x6c
++    const/16 v1, 0x73
+ 
+     const/4 v2, 0x0
+ 
+@@ -14813,7 +14818,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x68
++    const/16 v1, 0x6f
+ 
+     const/4 v2, 0x0
+ 
+@@ -14884,7 +14889,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x5b
++    const/16 v1, 0x5e
+ 
+     const/4 v2, 0x0
+ 
+@@ -14952,7 +14957,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3e
++    const/16 v2, 0x3f
+ 
+     const/4 v3, 0x0
+ 
+@@ -15015,7 +15020,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x25
++    const/16 v2, 0x26
+ 
+     const/4 v3, 0x0
+ 
+@@ -15087,7 +15092,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x26
++    const/16 p3, 0x27
+ 
+     const/4 p4, 0x0
+ 
+@@ -15150,7 +15155,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xa2
++    const/16 v2, 0xae
+ 
+     const/4 v3, 0x0
+ 
+@@ -15224,7 +15229,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x43
++    const/16 p3, 0x44
+ 
+     const/4 v1, 0x0
+ 
+@@ -15292,7 +15297,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x36
++    const/16 v2, 0x37
+ 
+     const/4 v3, 0x0
+ 
+@@ -15369,7 +15374,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x27
++    const/16 p3, 0x28
+ 
+     const/4 p4, 0x0
+ 
+@@ -15435,7 +15440,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x10
++    const/16 v1, 0x11
+ 
+     const/4 v2, 0x0
+ 
+@@ -15509,7 +15514,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb5
++    const/16 p3, 0xc1
+ 
+     const/4 v1, 0x0
+ 
+@@ -15580,7 +15585,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x52
++    const/16 v1, 0x53
+ 
+     const/4 v2, 0x0
+ 
+@@ -15651,7 +15656,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe9
++    const/16 v1, 0x10f
+ 
+     const/4 v2, 0x0
+ 
+@@ -15719,7 +15724,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x31
++    const/16 v2, 0x32
+ 
+     const/4 v3, 0x0
+ 
+@@ -15788,7 +15793,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x58
++    const/16 p3, 0x59
+ 
+     const/4 v1, 0x0
+ 
+@@ -15856,7 +15861,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x23
++    const/16 v2, 0x24
+ 
+     const/4 v3, 0x0
+ 
+@@ -15922,7 +15927,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x5e
++    const/16 v1, 0x61
+ 
+     const/4 v2, 0x0
+ 
+@@ -15990,7 +15995,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x22
++    const/16 v2, 0x23
+ 
+     const/4 v3, 0x0
+ 
+@@ -16056,7 +16061,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe7
++    const/16 v1, 0x10d
+ 
+     const/4 v2, 0x0
+ 
+@@ -16124,7 +16129,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xeb
++    const/16 v2, 0x111
+ 
+     const/4 v3, 0x0
+ 
+@@ -16198,7 +16203,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xec
++    const/16 p3, 0x112
+ 
+     const/4 v1, 0x0
+ 
+@@ -16278,7 +16283,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa9
++    const/16 p3, 0xb5
+ 
+     const/4 p4, 0x0
+ 
+@@ -16358,7 +16363,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa8
++    const/16 p3, 0xb4
+ 
+     const/4 p4, 0x0
+ 
+@@ -16438,7 +16443,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa7
++    const/16 p3, 0xb3
+ 
+     const/4 p4, 0x0
+ 
+@@ -16518,7 +16523,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xac
++    const/16 p3, 0xb8
+ 
+     const/4 p4, 0x0
+ 
+@@ -16598,7 +16603,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xab
++    const/16 p3, 0xb7
+ 
+     const/4 p4, 0x0
+ 
+@@ -16678,7 +16683,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xaa
++    const/16 p3, 0xb6
+ 
+     const/4 p4, 0x0
+ 
+@@ -16743,7 +16748,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2c
++    const/16 v3, 0x2d
+ 
+     const/4 v4, 0x0
+ 
+@@ -16824,7 +16829,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x40
++    const/16 v2, 0x41
+ 
+     const/4 v3, 0x0
+ 
+@@ -16887,7 +16892,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3f
++    const/16 v2, 0x40
+ 
+     const/4 v3, 0x0
+ 
+@@ -16956,7 +16961,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9d
++    const/16 p3, 0xa9
+ 
+     const/4 v1, 0x0
+ 
+@@ -17033,7 +17038,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9e
++    const/16 p3, 0xaa
+ 
+     const/4 p4, 0x0
+ 
+@@ -17160,7 +17165,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1d
++    const/16 v2, 0x1e
+ 
+     const/4 v3, 0x0
+ 
+@@ -17225,7 +17230,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbc
++    const/16 v3, 0xc8
+ 
+     const/4 v4, 0x0
+ 
+@@ -17290,7 +17295,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbf
++    const/16 v3, 0xcb
+ 
+     const/4 v4, 0x0
+ 
+@@ -17355,7 +17360,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbd
++    const/16 v3, 0xc9
+ 
+     const/4 v4, 0x0
+ 
+@@ -17423,7 +17428,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xbe
++    const/16 v2, 0xca
+ 
+     const/4 v3, 0x0
+ 
+@@ -17491,7 +17496,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x14
++    const/16 v2, 0x15
+ 
+     const/4 v3, 0x0
+ 
+@@ -17592,7 +17597,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x15
++    const/16 v1, 0x16
+ 
+     const/4 v2, 0x0
+ 
+@@ -17703,7 +17708,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x16
++    const/16 v1, 0x17
+ 
+     const/4 v2, 0x0
+ 
+@@ -17814,7 +17819,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x17
++    const/16 v1, 0x18
+ 
+     const/4 v2, 0x0
+ 
+@@ -17933,7 +17938,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x18
++    const/16 v1, 0x19
+ 
+     const/4 v2, 0x0
+ 
+@@ -18022,7 +18027,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x12
++    const/16 v1, 0x13
+ 
+     const/4 v2, 0x0
+ 
+@@ -18126,7 +18131,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x13
++    const/16 p3, 0x14
+ 
+     const/4 v1, 0x0
+ 
+@@ -18207,7 +18212,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_0/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x19
++    const/16 v1, 0x1a
+ 
+     const/4 v2, 0x0
+ 
+diff --git a/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControlCallback$Stub.smali b/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControlCallback$Stub.smali
+index 1368132..cd85915 100644
+--- a/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControlCallback$Stub.smali
++++ b/smali/vendor/amlogic/hardware/systemcontrol/V1_0/ISystemControlCallback$Stub.smali
+@@ -630,8 +630,7 @@
+         0x2 -> :sswitch_d
+         0x3 -> :sswitch_c
+         0x4 -> :sswitch_b
+-        0x5 -> :sswitch_a
+-        0x6 -> :sswitch_9
++        0x5 -> :sswitch_9
+         0xf43484e -> :sswitch_8
+         0xf444247 -> :sswitch_7
+         0xf445343 -> :sswitch_6
+diff --git a/smali/vendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy.smali b/smali/vendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy.smali
+index 1139b1d..276e29e 100644
+--- a/smali/vendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy.smali
++++ b/smali/vendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy.smali
+@@ -70,7 +70,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa1
++    const/16 v3, 0xad
+ 
+     const/4 v4, 0x0
+ 
+@@ -144,7 +144,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xf2
++    const/16 p3, 0x118
+ 
+     const/4 v1, 0x0
+ 
+@@ -215,7 +215,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xf3
++    const/16 v1, 0x119
+ 
+     const/4 v2, 0x0
+ 
+@@ -283,7 +283,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xdb
++    const/16 v2, 0xea
+ 
+     const/4 v3, 0x0
+ 
+@@ -357,7 +357,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x41
++    const/16 v3, 0x42
+ 
+     const/4 v4, 0x0
+ 
+@@ -453,7 +453,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xf5
++    const/16 v1, 0x11a
+ 
+     const/4 v2, 0x0
+ 
+@@ -536,7 +536,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x86
++    const/16 v3, 0x91
+ 
+     const/4 v4, 0x0
+ 
+@@ -604,7 +604,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xf6
++    const/16 v2, 0x11b
+ 
+     const/4 v3, 0x0
+ 
+@@ -871,7 +871,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1b
++    const/16 v2, 0x1c
+ 
+     const/4 v3, 0x0
+ 
+@@ -942,7 +942,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x1c
++    const/16 v1, 0x1d
+ 
+     const/4 v2, 0x0
+ 
+@@ -1027,7 +1027,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc7
++    const/16 p3, 0xd3
+ 
+     const/4 v1, 0x0
+ 
+@@ -1104,7 +1104,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcd
++    const/16 p3, 0xd9
+ 
+     const/4 p4, 0x0
+ 
+@@ -1184,7 +1184,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc9
++    const/16 p3, 0xd5
+ 
+     const/4 p4, 0x0
+ 
+@@ -1249,7 +1249,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb7
++    const/16 v3, 0xc3
+ 
+     const/4 v4, 0x0
+ 
+@@ -1326,7 +1326,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcf
++    const/16 p3, 0xdb
+ 
+     const/4 p4, 0x0
+ 
+@@ -1403,7 +1403,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc5
++    const/16 p3, 0xd1
+ 
+     const/4 p4, 0x0
+ 
+@@ -1468,7 +1468,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xc1
++    const/16 v3, 0xcd
+ 
+     const/4 v4, 0x0
+ 
+@@ -1533,7 +1533,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb9
++    const/16 v3, 0xc5
+ 
+     const/4 v4, 0x0
+ 
+@@ -1613,7 +1613,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcb
++    const/16 p3, 0xd7
+ 
+     const/4 p4, 0x0
+ 
+@@ -1690,7 +1690,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x96
++    const/16 p3, 0xa2
+ 
+     const/4 p4, 0x0
+ 
+@@ -1770,7 +1770,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x99
++    const/16 p3, 0xa5
+ 
+     const/4 p4, 0x0
+ 
+@@ -1850,7 +1850,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x89
++    const/16 p3, 0x95
+ 
+     const/4 p4, 0x0
+ 
+@@ -1927,7 +1927,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8b
++    const/16 p3, 0x97
+ 
+     const/4 p4, 0x0
+ 
+@@ -2004,7 +2004,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8f
++    const/16 p3, 0x9b
+ 
+     const/4 p4, 0x0
+ 
+@@ -2081,7 +2081,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8d
++    const/16 p3, 0x99
+ 
+     const/4 p4, 0x0
+ 
+@@ -2158,7 +2158,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x91
++    const/16 p3, 0x9d
+ 
+     const/4 p4, 0x0
+ 
+@@ -2238,7 +2238,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xd1
++    const/16 p3, 0xdd
+ 
+     const/4 p4, 0x0
+ 
+@@ -2303,7 +2303,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x93
++    const/16 v3, 0x9f
+ 
+     const/4 v4, 0x0
+ 
+@@ -2368,7 +2368,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9b
++    const/16 v3, 0xa7
+ 
+     const/4 v4, 0x0
+ 
+@@ -2433,7 +2433,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x92
++    const/16 v3, 0x9e
+ 
+     const/4 v4, 0x0
+ 
+@@ -2498,7 +2498,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9a
++    const/16 v3, 0xa6
+ 
+     const/4 v4, 0x0
+ 
+@@ -2575,7 +2575,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc6
++    const/16 p3, 0xd2
+ 
+     const/4 p4, 0x0
+ 
+@@ -2655,7 +2655,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xcc
++    const/16 p3, 0xd8
+ 
+     const/4 p4, 0x0
+ 
+@@ -2738,7 +2738,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc8
++    const/16 p3, 0xd4
+ 
+     const/4 p4, 0x0
+ 
+@@ -2806,7 +2806,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb6
++    const/16 v2, 0xc2
+ 
+     const/4 v3, 0x0
+ 
+@@ -2886,7 +2886,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xce
++    const/16 p3, 0xda
+ 
+     const/4 p4, 0x0
+ 
+@@ -2966,7 +2966,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc4
++    const/16 p3, 0xd0
+ 
+     const/4 p4, 0x0
+ 
+@@ -3040,7 +3040,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9c
++    const/16 p3, 0xa8
+ 
+     const/4 v1, 0x0
+ 
+@@ -3108,7 +3108,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xc0
++    const/16 v2, 0xcc
+ 
+     const/4 v3, 0x0
+ 
+@@ -3176,7 +3176,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb8
++    const/16 v2, 0xc4
+ 
+     const/4 v3, 0x0
+ 
+@@ -3259,7 +3259,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xca
++    const/16 p3, 0xd6
+ 
+     const/4 p4, 0x0
+ 
+@@ -3351,7 +3351,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x95
++    const/16 p3, 0xa1
+ 
+     const/4 p4, 0x0
+ 
+@@ -3440,7 +3440,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x98
++    const/16 p3, 0xa4
+ 
+     const/4 p4, 0x0
+ 
+@@ -3520,7 +3520,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x88
++    const/16 p3, 0x94
+ 
+     const/4 p4, 0x0
+ 
+@@ -3600,7 +3600,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8a
++    const/16 p3, 0x96
+ 
+     const/4 p4, 0x0
+ 
+@@ -3680,7 +3680,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8e
++    const/16 p3, 0x9a
+ 
+     const/4 p4, 0x0
+ 
+@@ -3760,7 +3760,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x8c
++    const/16 p3, 0x98
+ 
+     const/4 p4, 0x0
+ 
+@@ -3840,7 +3840,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x90
++    const/16 p3, 0x9c
+ 
+     const/4 p4, 0x0
+ 
+@@ -3905,7 +3905,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x94
++    const/16 v3, 0xa0
+ 
+     const/4 v4, 0x0
+ 
+@@ -3988,7 +3988,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xd0
++    const/16 p3, 0xdc
+ 
+     const/4 p4, 0x0
+ 
+@@ -4056,7 +4056,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x97
++    const/16 v2, 0xa3
+ 
+     const/4 v3, 0x0
+ 
+@@ -4127,7 +4127,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x102
++    const/16 v1, 0x128
+ 
+     const/4 v2, 0x0
+ 
+@@ -4198,7 +4198,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x103
++    const/16 v1, 0x129
+ 
+     const/4 v2, 0x1
+ 
+@@ -4331,7 +4331,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x9f
++    const/16 v2, 0xab
+ 
+     const/4 v3, 0x0
+ 
+@@ -4399,7 +4399,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xa0
++    const/16 v2, 0xac
+ 
+     const/4 v3, 0x0
+ 
+@@ -4464,7 +4464,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd9
++    const/16 v3, 0xe6
+ 
+     const/4 v4, 0x0
+ 
+@@ -4529,7 +4529,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdd
++    const/16 v3, 0xec
+ 
+     const/4 v4, 0x0
+ 
+@@ -4594,7 +4594,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xf9
++    const/16 v3, 0x11e
+ 
+     const/4 v4, 0x0
+ 
+@@ -4659,7 +4659,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x73
++    const/16 v3, 0x7a
+ 
+     const/4 v4, 0x0
+ 
+@@ -4727,7 +4727,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x74
++    const/16 v2, 0x7b
+ 
+     const/4 v3, 0x0
+ 
+@@ -4792,7 +4792,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7c
++    const/16 v3, 0x83
+ 
+     const/4 v4, 0x0
+ 
+@@ -4857,7 +4857,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe2
++    const/16 v3, 0xfb
+ 
+     const/4 v4, 0x0
+ 
+@@ -4925,7 +4925,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1e
++    const/16 v2, 0x1f
+ 
+     const/4 v3, 0x0
+ 
+@@ -4998,7 +4998,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x4d
++    const/16 v3, 0x4e
+ 
+     const/4 v4, 0x0
+ 
+@@ -5063,7 +5063,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd2
++    const/16 v3, 0xdf
+ 
+     const/4 v4, 0x0
+ 
+@@ -5136,7 +5136,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x82
++    const/16 v3, 0x89
+ 
+     const/4 v4, 0x0
+ 
+@@ -5201,7 +5201,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdf
++    const/16 v3, 0xf3
+ 
+     const/4 v4, 0x0
+ 
+@@ -5266,7 +5266,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x48
++    const/16 v3, 0x49
+ 
+     const/4 v4, 0x0
+ 
+@@ -5331,7 +5331,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x4b
++    const/16 v3, 0x4c
+ 
+     const/4 v4, 0x0
+ 
+@@ -5399,7 +5399,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x50
++    const/16 v3, 0x51
+ 
+     const/4 v4, 0x0
+ 
+@@ -5464,7 +5464,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa6
++    const/16 v3, 0xb2
+ 
+     const/4 v4, 0x0
+ 
+@@ -5540,7 +5540,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x84
++    const/16 v3, 0x8f
+ 
+     const/4 v4, 0x0
+ 
+@@ -5605,7 +5605,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7e
++    const/16 v3, 0x85
+ 
+     const/4 v4, 0x0
+ 
+@@ -5741,7 +5741,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2a
++    const/16 v2, 0x2b
+ 
+     const/4 v3, 0x0
+ 
+@@ -5814,7 +5814,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x80
++    const/16 v3, 0x87
+ 
+     const/4 v4, 0x0
+ 
+@@ -5879,7 +5879,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x3d
++    const/16 v3, 0x3e
+ 
+     const/4 v4, 0x0
+ 
+@@ -5952,7 +5952,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x3a
++    const/16 v3, 0x3b
+ 
+     const/4 v4, 0x0
+ 
+@@ -6028,7 +6028,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x6f
++    const/16 v2, 0x76
+ 
+     const/4 v3, 0x0
+ 
+@@ -6102,7 +6102,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc3
++    const/16 p3, 0xcf
+ 
+     const/4 v1, 0x0
+ 
+@@ -6167,7 +6167,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe6
++    const/16 v3, 0xff
+ 
+     const/4 v4, 0x0
+ 
+@@ -6232,7 +6232,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2d
++    const/16 v3, 0x2e
+ 
+     const/4 v4, 0x0
+ 
+@@ -6305,7 +6305,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x20
++    const/16 v3, 0x21
+ 
+     const/4 v4, 0x0
+ 
+@@ -6381,7 +6381,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x78
++    const/16 v3, 0x7f
+ 
+     const/4 v4, 0x0
+ 
+@@ -6449,7 +6449,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x64
++    const/16 v2, 0x67
+ 
+     const/4 v3, 0x0
+ 
+@@ -6514,7 +6514,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xfb
++    const/16 v3, 0x120
+ 
+     const/4 v4, 0x0
+ 
+@@ -6579,7 +6579,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x66
++    const/16 v3, 0x69
+ 
+     const/4 v4, 0x0
+ 
+@@ -6644,7 +6644,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2f
++    const/16 v3, 0x30
+ 
+     const/4 v4, 0x0
+ 
+@@ -6717,7 +6717,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x62
++    const/16 v3, 0x65
+ 
+     const/4 v4, 0x0
+ 
+@@ -6924,7 +6924,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xf1
++    const/16 v3, 0x117
+ 
+     const/4 v4, 0x0
+ 
+@@ -6997,7 +6997,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xef
++    const/16 v3, 0x115
+ 
+     const/4 v4, 0x0
+ 
+@@ -7070,7 +7070,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x56
++    const/16 v3, 0x57
+ 
+     const/4 v4, 0x0
+ 
+@@ -7135,7 +7135,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xed
++    const/16 v3, 0x113
+ 
+     const/4 v4, 0x0
+ 
+@@ -7203,7 +7203,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xf7
++    const/16 v2, 0x11c
+ 
+     const/4 v3, 0x0
+ 
+@@ -7276,7 +7276,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x46
++    const/16 v3, 0x47
+ 
+     const/4 v4, 0x0
+ 
+@@ -7341,7 +7341,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x7a
++    const/16 v3, 0x81
+ 
+     const/4 v4, 0x0
+ 
+@@ -7406,7 +7406,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe4
++    const/16 v3, 0xfd
+ 
+     const/4 v4, 0x0
+ 
+@@ -7471,7 +7471,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x6b
++    const/16 v3, 0x72
+ 
+     const/4 v4, 0x0
+ 
+@@ -7536,7 +7536,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x6d
++    const/16 v3, 0x74
+ 
+     const/4 v4, 0x0
+ 
+@@ -7601,7 +7601,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x69
++    const/16 v3, 0x70
+ 
+     const/4 v4, 0x0
+ 
+@@ -7672,7 +7672,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe0
++    const/16 v1, 0xf4
+ 
+     const/4 v2, 0x0
+ 
+@@ -7737,7 +7737,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x5c
++    const/16 v3, 0x5f
+ 
+     const/4 v4, 0x0
+ 
+@@ -7805,7 +7805,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x87
++    const/16 v2, 0x92
+ 
+     const/4 v3, 0x0
+ 
+@@ -7876,7 +7876,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd3
++    const/16 v2, 0xe0
+ 
+     const/4 v3, 0x0
+ 
+@@ -7944,7 +7944,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x44
++    const/16 v3, 0x45
+ 
+     const/4 v4, 0x0
+ 
+@@ -8012,7 +8012,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x28
++    const/16 v2, 0x29
+ 
+     const/4 v3, 0x0
+ 
+@@ -8102,7 +8102,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x35
++    const/16 v3, 0x36
+ 
+     const/4 v4, 0x0
+ 
+@@ -8251,7 +8251,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xb
++    const/16 v2, 0xc
+ 
+     const/4 v3, 0x0
+ 
+@@ -8330,7 +8330,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xf
++    const/16 v1, 0x10
+ 
+     const/4 v2, 0x0
+ 
+@@ -8409,7 +8409,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xd
++    const/16 v1, 0xe
+ 
+     const/4 v2, 0x0
+ 
+@@ -8488,7 +8488,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xe
++    const/16 p3, 0xf
+ 
+     const/4 v1, 0x0
+ 
+@@ -8567,7 +8567,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xc
++    const/16 v1, 0xd
+ 
+     const/4 v2, 0x0
+ 
+@@ -8640,7 +8640,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xb4
++    const/16 v3, 0xc0
+ 
+     const/4 v4, 0x0
+ 
+@@ -8705,7 +8705,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa4
++    const/16 v3, 0xb0
+ 
+     const/4 v4, 0x0
+ 
+@@ -8770,7 +8770,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x53
++    const/16 v3, 0x54
+ 
+     const/4 v4, 0x0
+ 
+@@ -8835,7 +8835,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xea
++    const/16 v3, 0x110
+ 
+     const/4 v4, 0x0
+ 
+@@ -8900,7 +8900,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x59
++    const/16 v3, 0x5a
+ 
+     const/4 v4, 0x0
+ 
+@@ -8965,7 +8965,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x5f
++    const/16 v3, 0x62
+ 
+     const/4 v4, 0x0
+ 
+@@ -9030,7 +9030,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x85
++    const/16 v3, 0x90
+ 
+     const/4 v4, 0x0
+ 
+@@ -9095,7 +9095,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xe8
++    const/16 v3, 0x10e
+ 
+     const/4 v4, 0x0
+ 
+@@ -9160,7 +9160,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xfd
++    const/16 v3, 0x122
+ 
+     const/4 v4, 0x0
+ 
+@@ -9306,7 +9306,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x39
++    const/16 v3, 0x3a
+ 
+     const/4 v4, 0x0
+ 
+@@ -9391,7 +9391,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xaf
++    const/16 p3, 0xbb
+ 
+     const/4 p4, 0x0
+ 
+@@ -9468,7 +9468,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xae
++    const/16 p3, 0xba
+ 
+     const/4 p4, 0x0
+ 
+@@ -9545,7 +9545,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xad
++    const/16 p3, 0xb9
+ 
+     const/4 p4, 0x0
+ 
+@@ -9622,7 +9622,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb2
++    const/16 p3, 0xbe
+ 
+     const/4 p4, 0x0
+ 
+@@ -9699,7 +9699,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb1
++    const/16 p3, 0xbd
+ 
+     const/4 p4, 0x0
+ 
+@@ -9776,7 +9776,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb0
++    const/16 p3, 0xbc
+ 
+     const/4 p4, 0x0
+ 
+@@ -9841,7 +9841,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xd7
++    const/16 v3, 0xe4
+ 
+     const/4 v4, 0x0
+ 
+@@ -9906,7 +9906,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xdc
++    const/16 v3, 0xeb
+ 
+     const/4 v4, 0x0
+ 
+@@ -9971,7 +9971,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x67
++    const/16 v3, 0x6e
+ 
+     const/4 v4, 0x0
+ 
+@@ -10036,7 +10036,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x60
++    const/16 v3, 0x63
+ 
+     const/4 v4, 0x0
+ 
+@@ -10116,7 +10116,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x38
++    const/16 v3, 0x39
+ 
+     const/4 v4, 0x0
+ 
+@@ -10315,7 +10315,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa
++    const/16 v3, 0xb
+ 
+     const/4 v4, 0x0
+ 
+@@ -10401,7 +10401,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x42
++    const/16 v2, 0x43
+ 
+     const/4 v3, 0x0
+ 
+@@ -10472,7 +10472,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x21
++    const/16 v1, 0x22
+ 
+     const/4 v2, 0x0
+ 
+@@ -10535,7 +10535,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xff
++    const/16 v2, 0x124
+ 
+     const/4 v3, 0x0
+ 
+@@ -10600,7 +10600,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x9
++    const/16 v3, 0xa
+ 
+     const/4 v4, 0x0
+ 
+@@ -10782,7 +10782,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xda
++    const/16 v3, 0xe7
+ 
+     const/4 v4, 0x0
+ 
+@@ -10858,7 +10858,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x11
++    const/16 v2, 0x12
+ 
+     const/4 v3, 0x0
+ 
+@@ -10934,7 +10934,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xfe
++    const/16 v2, 0x123
+ 
+     const/4 v3, 0x0
+ 
+@@ -11010,7 +11010,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1a
++    const/16 v2, 0x1b
+ 
+     const/4 v3, 0x0
+ 
+@@ -11083,7 +11083,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xf8
++    const/16 v3, 0x11d
+ 
+     const/4 v4, 0x0
+ 
+@@ -11151,7 +11151,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x32
++    const/16 v2, 0x33
+ 
+     const/4 v3, 0x0
+ 
+@@ -11227,7 +11227,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x75
++    const/16 v2, 0x7c
+ 
+     const/4 v3, 0x0
+ 
+@@ -11298,7 +11298,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x76
++    const/16 v1, 0x7d
+ 
+     const/4 v2, 0x0
+ 
+@@ -11366,7 +11366,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x4e
++    const/16 v2, 0x4f
+ 
+     const/4 v3, 0x0
+ 
+@@ -11434,7 +11434,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x49
++    const/16 v2, 0x4a
+ 
+     const/4 v3, 0x0
+ 
+@@ -11502,7 +11502,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x51
++    const/16 v2, 0x52
+ 
+     const/4 v3, 0x0
+ 
+@@ -11573,7 +11573,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x29
++    const/16 v1, 0x2a
+ 
+     const/4 v2, 0x0
+ 
+@@ -11639,7 +11639,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x70
++    const/16 v1, 0x77
+ 
+     const/4 v2, 0x0
+ 
+@@ -11707,7 +11707,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x57
++    const/16 v2, 0x58
+ 
+     const/4 v3, 0x0
+ 
+@@ -11775,7 +11775,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x5d
++    const/16 v2, 0x60
+ 
+     const/4 v3, 0x0
+ 
+@@ -11843,7 +11843,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x45
++    const/16 v2, 0x46
+ 
+     const/4 v3, 0x0
+ 
+@@ -11911,7 +11911,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x54
++    const/16 v2, 0x55
+ 
+     const/4 v3, 0x0
+ 
+@@ -11979,7 +11979,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x5a
++    const/16 v2, 0x5b
+ 
+     const/4 v3, 0x0
+ 
+@@ -12074,7 +12074,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb3
++    const/16 p3, 0xbf
+ 
+     const/4 p4, 0x0
+ 
+@@ -12142,7 +12142,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xfc
++    const/16 v2, 0x121
+ 
+     const/4 v3, 0x0
+ 
+@@ -12205,7 +12205,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x37
++    const/16 v2, 0x38
+ 
+     const/4 v3, 0x0
+ 
+@@ -12268,7 +12268,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xfa
++    const/16 v2, 0x11f
+ 
+     const/4 v3, 0x0
+ 
+@@ -12399,7 +12399,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd8
++    const/16 v2, 0xe5
+ 
+     const/4 v3, 0x0
+ 
+@@ -12484,7 +12484,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x34
++    const/16 p3, 0x35
+ 
+     const/4 v1, 0x0
+ 
+@@ -12530,6 +12530,11 @@
+         }
+     .end annotation
+ 
++    new-instance v0, Landroid/os/RemoteException;
++    const-string v1, "setAudioParam is not implemented by this systemcontrol HAL"
++    invoke-direct {v0, v1}, Landroid/os/RemoteException;-><init>(Ljava/lang/String;)V
++    throw v0
++
+     .line 5504
+     new-instance v0, Landroid/os/HwParcel;
+ 
+@@ -12640,7 +12645,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x71
++    const/16 v1, 0x78
+ 
+     const/4 v2, 0x0
+ 
+@@ -12714,7 +12719,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x72
++    const/16 p3, 0x79
+ 
+     const/4 v1, 0x0
+ 
+@@ -12785,7 +12790,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7b
++    const/16 v1, 0x82
+ 
+     const/4 v2, 0x0
+ 
+@@ -12856,7 +12861,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe1
++    const/16 v1, 0xfa
+ 
+     const/4 v2, 0x0
+ 
+@@ -12990,7 +12995,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x1f
++    const/16 v1, 0x20
+ 
+     const/4 v2, 0x0
+ 
+@@ -13056,7 +13061,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x4c
++    const/16 v1, 0x4d
+ 
+     const/4 v2, 0x0
+ 
+@@ -13121,7 +13126,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xa3
++    const/16 v3, 0xaf
+ 
+     const/4 v4, 0x0
+ 
+@@ -13201,7 +13206,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x33
++    const/16 v2, 0x34
+ 
+     const/4 v3, 0x0
+ 
+@@ -13267,7 +13272,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x81
++    const/16 v1, 0x88
+ 
+     const/4 v2, 0x0
+ 
+@@ -13338,7 +13343,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xde
++    const/16 v1, 0xf2
+ 
+     const/4 v2, 0x0
+ 
+@@ -13477,7 +13482,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x47
++    const/16 v1, 0x48
+ 
+     const/4 v2, 0x0
+ 
+@@ -13554,7 +13559,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x4a
++    const/16 p3, 0x4b
+ 
+     const/4 p4, 0x0
+ 
+@@ -13625,7 +13630,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x4f
++    const/16 v1, 0x50
+ 
+     const/4 v2, 0x0
+ 
+@@ -13693,7 +13698,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd5
++    const/16 v2, 0xe2
+ 
+     const/4 v3, 0x0
+ 
+@@ -13761,7 +13766,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd4
++    const/16 v2, 0xe1
+ 
+     const/4 v3, 0x0
+ 
+@@ -13835,7 +13840,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa5
++    const/16 p3, 0xb1
+ 
+     const/4 v1, 0x0
+ 
+@@ -13906,7 +13911,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x83
++    const/16 v1, 0x8e
+ 
+     const/4 v2, 0x0
+ 
+@@ -13977,7 +13982,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7d
++    const/16 v1, 0x84
+ 
+     const/4 v2, 0x0
+ 
+@@ -14048,7 +14053,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x7f
++    const/16 v1, 0x86
+ 
+     const/4 v2, 0x0
+ 
+@@ -14116,7 +14121,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x24
++    const/16 v2, 0x25
+ 
+     const/4 v3, 0x0
+ 
+@@ -14179,7 +14184,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3c
++    const/16 v2, 0x3d
+ 
+     const/4 v3, 0x0
+ 
+@@ -14242,7 +14247,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3b
++    const/16 v2, 0x3c
+ 
+     const/4 v3, 0x0
+ 
+@@ -14311,7 +14316,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x6e
++    const/16 p3, 0x75
+ 
+     const/4 v1, 0x0
+ 
+@@ -14388,7 +14393,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xc2
++    const/16 p3, 0xce
+ 
+     const/4 p4, 0x0
+ 
+@@ -14459,7 +14464,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe5
++    const/16 v1, 0xfe
+ 
+     const/4 v2, 0x0
+ 
+@@ -14527,7 +14532,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2b
++    const/16 v2, 0x2c
+ 
+     const/4 v3, 0x0
+ 
+@@ -14590,7 +14595,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xd6
++    const/16 v2, 0xe3
+ 
+     const/4 v3, 0x0
+ 
+@@ -14661,7 +14666,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x77
++    const/16 v1, 0x7e
+ 
+     const/4 v2, 0x0
+ 
+@@ -14735,7 +14740,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x63
++    const/16 p3, 0x66
+ 
+     const/4 v1, 0x0
+ 
+@@ -14806,7 +14811,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x65
++    const/16 v1, 0x68
+ 
+     const/4 v2, 0x0
+ 
+@@ -14874,7 +14879,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x2e
++    const/16 v2, 0x2f
+ 
+     const/4 v3, 0x0
+ 
+@@ -14997,7 +15002,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x61
++    const/16 v1, 0x64
+ 
+     const/4 v2, 0x0
+ 
+@@ -15065,7 +15070,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x30
++    const/16 v2, 0x31
+ 
+     const/4 v3, 0x0
+ 
+@@ -15128,7 +15133,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xf0
++    const/16 v2, 0x116
+ 
+     const/4 v3, 0x0
+ 
+@@ -15191,7 +15196,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xee
++    const/16 v2, 0x114
+ 
+     const/4 v3, 0x0
+ 
+@@ -15257,7 +15262,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x55
++    const/16 v1, 0x56
+ 
+     const/4 v2, 0x0
+ 
+@@ -15303,6 +15308,11 @@
+         }
+     .end annotation
+ 
++    new-instance v0, Landroid/os/RemoteException;
++    const-string v1, "setIgnoreHpdState is not implemented by this systemcontrol HAL"
++    invoke-direct {v0, v1}, Landroid/os/RemoteException;-><init>(Ljava/lang/String;)V
++    throw v0
++
+     .line 5780
+     new-instance v0, Landroid/os/HwParcel;
+ 
+@@ -15393,7 +15403,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xbb
++    const/16 v2, 0xc7
+ 
+     const/4 v3, 0x0
+ 
+@@ -15461,7 +15471,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xba
++    const/16 v2, 0xc6
+ 
+     const/4 v3, 0x0
+ 
+@@ -15532,7 +15542,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x79
++    const/16 v1, 0x80
+ 
+     const/4 v2, 0x0
+ 
+@@ -15603,7 +15613,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe3
++    const/16 v1, 0xfc
+ 
+     const/4 v2, 0x0
+ 
+@@ -15674,7 +15684,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x6a
++    const/16 v1, 0x71
+ 
+     const/4 v2, 0x0
+ 
+@@ -15745,7 +15755,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x6c
++    const/16 v1, 0x73
+ 
+     const/4 v2, 0x0
+ 
+@@ -15816,7 +15826,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x68
++    const/16 v1, 0x6f
+ 
+     const/4 v2, 0x0
+ 
+@@ -15887,7 +15897,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x5b
++    const/16 v1, 0x5e
+ 
+     const/4 v2, 0x0
+ 
+@@ -15955,7 +15965,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3e
++    const/16 v2, 0x3f
+ 
+     const/4 v3, 0x0
+ 
+@@ -16018,7 +16028,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x25
++    const/16 v2, 0x26
+ 
+     const/4 v3, 0x0
+ 
+@@ -16090,7 +16100,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x26
++    const/16 p3, 0x27
+ 
+     const/4 p4, 0x0
+ 
+@@ -16153,7 +16163,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xa2
++    const/16 v2, 0xae
+ 
+     const/4 v3, 0x0
+ 
+@@ -16227,7 +16237,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x43
++    const/16 p3, 0x44
+ 
+     const/4 v1, 0x0
+ 
+@@ -16295,7 +16305,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x36
++    const/16 v2, 0x37
+ 
+     const/4 v3, 0x0
+ 
+@@ -16372,7 +16382,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x27
++    const/16 p3, 0x28
+ 
+     const/4 p4, 0x0
+ 
+@@ -16438,7 +16448,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x10
++    const/16 v1, 0x11
+ 
+     const/4 v2, 0x0
+ 
+@@ -16512,7 +16522,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xb5
++    const/16 p3, 0xc1
+ 
+     const/4 v1, 0x0
+ 
+@@ -16583,7 +16593,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x52
++    const/16 v1, 0x53
+ 
+     const/4 v2, 0x0
+ 
+@@ -16654,7 +16664,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe9
++    const/16 v1, 0x10f
+ 
+     const/4 v2, 0x0
+ 
+@@ -16722,7 +16732,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x31
++    const/16 v2, 0x32
+ 
+     const/4 v3, 0x0
+ 
+@@ -16791,7 +16801,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x58
++    const/16 p3, 0x59
+ 
+     const/4 v1, 0x0
+ 
+@@ -16859,7 +16869,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x23
++    const/16 v2, 0x24
+ 
+     const/4 v3, 0x0
+ 
+@@ -16925,7 +16935,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x5e
++    const/16 v1, 0x61
+ 
+     const/4 v2, 0x0
+ 
+@@ -16993,7 +17003,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x22
++    const/16 v2, 0x23
+ 
+     const/4 v3, 0x0
+ 
+@@ -17059,7 +17069,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0xe7
++    const/16 v1, 0x10d
+ 
+     const/4 v2, 0x0
+ 
+@@ -17127,7 +17137,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xeb
++    const/16 v2, 0x111
+ 
+     const/4 v3, 0x0
+ 
+@@ -17201,7 +17211,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xec
++    const/16 p3, 0x112
+ 
+     const/4 v1, 0x0
+ 
+@@ -17281,7 +17291,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa9
++    const/16 p3, 0xb5
+ 
+     const/4 p4, 0x0
+ 
+@@ -17361,7 +17371,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa8
++    const/16 p3, 0xb4
+ 
+     const/4 p4, 0x0
+ 
+@@ -17441,7 +17451,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xa7
++    const/16 p3, 0xb3
+ 
+     const/4 p4, 0x0
+ 
+@@ -17521,7 +17531,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xac
++    const/16 p3, 0xb8
+ 
+     const/4 p4, 0x0
+ 
+@@ -17601,7 +17611,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xab
++    const/16 p3, 0xb7
+ 
+     const/4 p4, 0x0
+ 
+@@ -17681,7 +17691,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0xaa
++    const/16 p3, 0xb6
+ 
+     const/4 p4, 0x0
+ 
+@@ -17746,7 +17756,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0x2c
++    const/16 v3, 0x2d
+ 
+     const/4 v4, 0x0
+ 
+@@ -17827,7 +17837,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x40
++    const/16 v2, 0x41
+ 
+     const/4 v3, 0x0
+ 
+@@ -17890,7 +17900,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x3f
++    const/16 v2, 0x40
+ 
+     const/4 v3, 0x0
+ 
+@@ -17959,7 +17969,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x100
++    const/16 p3, 0x125
+ 
+     const/4 v1, 0x0
+ 
+@@ -18033,7 +18043,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9d
++    const/16 p3, 0xa9
+ 
+     const/4 v1, 0x0
+ 
+@@ -18110,7 +18120,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x9e
++    const/16 p3, 0xaa
+ 
+     const/4 p4, 0x0
+ 
+@@ -18237,7 +18247,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x1d
++    const/16 v2, 0x1e
+ 
+     const/4 v3, 0x0
+ 
+@@ -18302,7 +18312,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbc
++    const/16 v3, 0xc8
+ 
+     const/4 v4, 0x0
+ 
+@@ -18367,7 +18377,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbf
++    const/16 v3, 0xcb
+ 
+     const/4 v4, 0x0
+ 
+@@ -18432,7 +18442,7 @@
+     :try_start_0
+     iget-object v2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v3, 0xbd
++    const/16 v3, 0xc9
+ 
+     const/4 v4, 0x0
+ 
+@@ -18500,7 +18510,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0xbe
++    const/16 v2, 0xca
+ 
+     const/4 v3, 0x0
+ 
+@@ -18568,7 +18578,7 @@
+     :try_start_0
+     iget-object v1, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v2, 0x14
++    const/16 v2, 0x15
+ 
+     const/4 v3, 0x0
+ 
+@@ -18669,7 +18679,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x15
++    const/16 v1, 0x16
+ 
+     const/4 v2, 0x0
+ 
+@@ -18780,7 +18790,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x16
++    const/16 v1, 0x17
+ 
+     const/4 v2, 0x0
+ 
+@@ -18891,7 +18901,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x17
++    const/16 v1, 0x18
+ 
+     const/4 v2, 0x0
+ 
+@@ -19010,7 +19020,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x18
++    const/16 v1, 0x19
+ 
+     const/4 v2, 0x0
+ 
+@@ -19099,7 +19109,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x12
++    const/16 v1, 0x13
+ 
+     const/4 v2, 0x0
+ 
+@@ -19203,7 +19213,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 p3, 0x13
++    const/16 p3, 0x14
+ 
+     const/4 v1, 0x0
+ 
+@@ -19284,7 +19294,7 @@
+     :try_start_0
+     iget-object p2, p0, Lvendor/amlogic/hardware/systemcontrol/V1_1/ISystemControl$Proxy;->mRemote:Landroid/os/IHwBinder;
+ 
+-    const/16 v1, 0x19
++    const/16 v1, 0x1a
+ 
+     const/4 v2, 0x0
+ 
