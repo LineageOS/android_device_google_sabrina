@@ -25,6 +25,10 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/priv-app/droidlogic-res/droidlogic-res.apk': blob_fixup()
+        .apktool_patch('blob-patches/droidlogic-res.patch'),
+    'vendor/framework/droidlogic.software.core.jar': blob_fixup()
+        .apktool_patch('blob-patches/droidlogic.software.core.patch'),
     'vendor/bin/hw/android.hardware.security.keymint-service.amlogic': blob_fixup()
         .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_akeymint_utils.so')
         .replace_needed('libkeymint.so', 'libakeymint.so')
