@@ -3,7 +3,7 @@
 
 ## ChromecastService
 system_ext/etc/permissions/com.google.android.chromecast.chromecastservice.xml
-#system_ext/priv-app/ChromecastService/ChromecastService.apk
+system_ext/priv-app/ChromecastService/ChromecastService.apk
 
 ## Bluetooth
 product/etc/sysconfig/com.google.android.feature.FAST_PAIRING.xml
