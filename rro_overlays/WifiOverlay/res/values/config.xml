@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Boolean indicating associated network selection is allowed -->
+    <bool name="config_wifi_framework_enable_associated_network_selection">false</bool>
+
+    <!-- Boolean indicating performing a partial initial scan is enabled -->
+    <bool name="config_wifiEnablePartialInitialScan">true</bool>
+
+    <!-- Integer for maximum number of channels to use in initial partial scan. If equals to 0, means add all available channels for networks -->
+    <integer name="config_wifiInitialPartialScanChannelMaxCount">4</integer>
+
+    <!-- Integer for maximum value of temporarily disabled duration -->
+    <integer name="config_wifiDisableTemporaryMaximumDurationMs">300000</integer>
+
+    <!-- Base duration to set a network disabled after validation failure happen-->
+    <integer name="config_wifiDisableReasonNoInternetTemporaryDurationMs">60000</integer>
+    <integer name="config_wifiDisableReasonNoInternetPermanentDurationMs">60000</integer>
+    <integer name="config_wifiDisableReasonByWrongPasswordDurationMs">60000</integer>
+
+    <!-- Enable the Software PNO feature. If Hardware PNO is not enabled, the device is in
+    standby and Wifi is disconnected, periodic scans are performed according to the
+    following schedule:
+    1) config_wifiSwPnoMobilityStateTimerIterations iterations with initial interval provided by
+    the mobility status (see config_wifiMovingPnoScanIntervalMillis and
+    config_wifiStationaryPnoScanIntervalMillis for the default values respectively for moving and
+    stationary devices). At each iteration the interval is increased proportionally to the elapsed
+    iterations. The device is awakened even if currently in doze/idle mode.
+    2) config_wifiSwPnoFastTimerIterations iterations with initial interval provided by
+    config_wifiSwPnoFastTimerMs. The device is awakened even if currently in doze/idle mode.
+    3) config_wifiSwPnoSlowTimerIterations iterations with initial provided by
+    config_wifiSwPnoSlowTimerMs and a window of config_wifiSwPnoSlowTimerMargin.
+    Inside such time window, the device is not awakened to perform the scan. If a wakeup happens for
+    other reasons, the scan might be performed as well in order to avoid subsequent awakening.
+    If no spontaneous awakening happens at the end of the time window, the device is awakened to
+    perform the scan.-->
+    <bool name="config_wifiSwPnoEnabled">true</bool>
+</resources>

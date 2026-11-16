@@ -5,6 +5,4 @@
 
 runtime_resource_overlay {
     name: "SabrinaNetflixConfigOverlay",
-    theme: "NetflixConfigOverlay",
-    soc_specific: true,
 }
