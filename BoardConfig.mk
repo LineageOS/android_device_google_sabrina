@@ -16,6 +16,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_DTB_NAME := sm1_s905d3_sabrina
 TARGET_DTBO_NAME := android_overlay_dt
 
+## Fastboot
+TARGET_BOARD_FASTBOOT_INFO_FILE := $(DEVICE_PATH)/fastboot-info.txt
+
 ## Kernel
 TARGET_KERNEL_PLATFORM_TARGET := sabrina
 TARGET_KERNEL_SOURCE := vendor/google/sabrina-build
