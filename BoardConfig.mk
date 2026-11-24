@@ -36,8 +36,7 @@ BOARD_SYSTEM_EXTIMAGE_EXTFS_INODE_COUNT ?= -1
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## SELinux
-SELINUX_IGNORE_NEVERALLOWS := true
-BOARD_VENDOR_SEPOLICY_DIRS += device/google/sabrina/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 ## Wi-Fi
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
