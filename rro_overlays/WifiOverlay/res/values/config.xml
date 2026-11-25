@@ -13,6 +13,9 @@
     <!-- Integer for maximum number of channels to use in initial partial scan. If equals to 0, means add all available channels for networks -->
     <integer name="config_wifiInitialPartialScanChannelMaxCount">4</integer>
 
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool name="config_wifi_connected_mac_randomization_supported">false</bool>
+
     <!-- Integer for maximum value of temporarily disabled duration -->
     <integer name="config_wifiDisableTemporaryMaximumDurationMs">300000</integer>
 
