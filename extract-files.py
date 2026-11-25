@@ -33,6 +33,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_akeymint_utils.so')
         .replace_needed('libkeymint.so', 'libakeymint.so')
         .replace_needed('libkeymint_remote_prov_support.so', 'libakeymint_remote_prov_support.so'),
+    'vendor/bin/performance_settings': blob_fixup()
+        .regex_replace(r'(echo 4 > (\S+))', r'[ -f \2 ] && \1'),
     'vendor/etc/init/led_control_service.rc': blob_fixup()
         .regex_replace('  seclabel u:r:led_control_service:s0', ''),
     'vendor/lib/libakeymint.so': blob_fixup()
