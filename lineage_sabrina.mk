@@ -26,8 +26,8 @@ PRODUCT_NAME := lineage_sabrina
 PRODUCT_ATV_CLIENTID_BASE := ATV00100020-US
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sabrina_prod_stable-user 12 STTE.240615.007 12033466 release-keys" \
-    BuildFingerprint=google/sabrina_prod_stable/sabrina:12/STTE.240615.007/12033466:user/release-keys \
+    BuildDesc="sabrina_prod_stable-user 14 UTTA.260813.002 16086604 release-keys" \
+    BuildFingerprint=google/sabrina_prod_stable/sabrina:14/UTTA.260813.002/16086604:user/release-keys \
     DeviceName=sabrina \
     DeviceProduct=sabrina_prod_stable \
     SystemDevice=sabrina \
