@@ -1,1 +1,0 @@
-allow kernel device:blk_file create;
