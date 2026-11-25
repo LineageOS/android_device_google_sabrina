@@ -16,6 +16,7 @@ vendor/bin/device_renew_key.bin
 vendor/bin/generate_attestation_device_id
 vendor/bin/hw/android.hardware.drm@1.0-service.castkey
 vendor/etc/cert-chain.crt
+vendor/etc/init/android.hardware.drm@1.0-service.castkey.rc
 vendor/etc/init/hw/init.sabrina.product.rc
 vendor/lib/libamavutils.so
 vendor/lib/libcast_auth.so

@@ -1,0 +1,17 @@
+type hal_drm_cast, domain;
+hal_server_domain(hal_drm_cast, hal_drm)
+
+type hal_drm_cast_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_drm_cast)
+
+vndbinder_use(hal_drm_cast)
+
+allow hal_drm_cast { appdomain -isolated_app_all }:fd use;
+allow hal_drm_cast hal_allocator_server:fd use;
+
+# OP-TEE (/dev/tee0) for libcast_auth
+allow hal_drm_cast drm_device:chr_file rw_file_perms;
+
+# Factory-provisioned Cast credentials (client.crt / client.key)
+allow hal_drm_cast mnt_vendor_file:dir search;
+r_dir_file(hal_drm_cast, factory_file)
